@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Profil Desa & Dokumentasi KKNT</title>
+<meta name="description" content="Website profil desa dan dokumentasi kegiatan KKNT" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============================== NAVBAR ============================== -->
+<nav class="navbar">
+  <div class="container">
+    <a href="#beranda" class="navbar-brand">
+      <span class="lingkaran"></span>
+      <span id="nav-nama-desa">Desa</span>
+    </a>
+    <ul class="navbar-menu" id="navbar-menu">
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#perangkat">Perangkat</a></li>
+      <li><a href="#kknt">Tim KKNT</a></li>
+      <li><a href="#proker">Program Kerja</a></li>
+      <li><a href="#kegiatan">Dokumentasi</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+    <button class="navbar-toggle" id="navbar-toggle" aria-label="Buka menu">☰</button>
+  </div>
+</nav>
+
+<!-- ============================== HERO ============================== -->
+<header class="hero" id="beranda">
+  <svg class="hero-kontur" viewBox="0 0 1200 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 420 Q150 380 300 420 T600 420 T900 420 T1200 420 V500 H0 Z" fill="#d9c5aa" opacity="0.45"/>
+    <path d="M0 450 Q200 410 400 450 T800 450 T1200 450 V500 H0 Z" fill="#8c3c46" opacity="0.55"/>
+    <path d="M0 100 Q100 70 250 100 T550 100 T850 100 T1200 100" stroke="#f8f3ea" stroke-width="1.5" fill="none"/>
+    <path d="M0 150 Q100 120 250 150 T550 150 T850 150 T1200 150" stroke="#f8f3ea" stroke-width="1.5" fill="none"/>
+    <path d="M0 200 Q100 170 250 200 T550 200 T850 200 T1200 200" stroke="#f8f3ea" stroke-width="1.5" fill="none"/>
+  </svg>
+  <div class="container hero-inner">
+    <div class="hero-teks">
+      <span class="eyebrow">Profil Desa &amp; Dokumentasi KKNT</span>
+      <h1 id="hero-nama-desa">Nama Desa</h1>
+      <p class="tagline" id="hero-tagline">Tagline desa</p>
+      <p class="hero-lokasi" id="hero-lokasi">Kecamatan, Kabupaten, Provinsi</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="angka" id="stat-luas">–</div><div class="label">Luas Wilayah</div></div>
+        <div class="hero-stat"><div class="angka" id="stat-penduduk">–</div><div class="label">Jumlah Penduduk</div></div>
+        <div class="hero-stat"><div class="angka" id="stat-rt">–</div><div class="label">RT</div></div>
+        <div class="hero-stat"><div class="angka" id="stat-rw">–</div><div class="label">RW</div></div>
+      </div>
+    </div>
+    <div class="hero-foto" id="hero-foto"></div>
+  </div>
+</header>
+<div class="pembatas-anyaman"></div>
+
+<!-- ============================== PROFIL DESA ============================== -->
+<section id="profil">
+  <div class="container">
+    <span class="eyebrow">01 — Tentang Kami</span>
+    <h2 class="judul-section">Profil Desa</h2>
+    <p class="subjudul-section">Sejarah, visi misi, dan gambaran umum wilayah.</p>
+
+    <div class="profil-grid">
+      <div class="profil-sejarah">
+        <h3 style="margin-bottom:14px; color:var(--hijau-tua); font-size:1.2rem;">Sejarah Singkat</h3>
+        <p id="teks-sejarah"></p>
+      </div>
+      <div class="visi-misi">
+        <h4>Visi</h4>
+        <p id="teks-visi"></p>
+        <h4>Misi</h4>
+        <ul id="list-misi"></ul>
+      </div>
+    </div>
+
+    <div class="batas-map-grid">
+      <div>
+        <h3 style="margin-bottom:14px; color:var(--hijau-tua); font-size:1.2rem;">Batas Wilayah</h3>
+        <div class="batas-wilayah" id="batas-wilayah"></div>
+      </div>
+      <div>
+        <h3 style="margin-bottom:14px; color:var(--hijau-tua); font-size:1.2rem;">Peta Wilayah</h3>
+        <div class="peta-wrap"><iframe id="peta-desa" loading="lazy" title="Peta lokasi desa" allowfullscreen></iframe></div>
+      </div>
+    </div>
+
+    <div>
+      <h3 style="margin-bottom:20px; color:var(--hijau-tua); font-size:1.2rem;">Potensi Desa</h3>
+      <div class="potensi-grid" id="potensi-grid"></div>
+    </div>
+  </div>
+</section>
+
+<div class="pembatas-anyaman"></div>
+
+<!-- ============================== PERANGKAT DESA ============================== -->
+<section id="perangkat" style="background:var(--krem-anyaman);">
+  <div class="container">
+    <span class="eyebrow">02 — Pemerintahan</span>
+    <h2 class="judul-section">Struktur Perangkat Desa</h2>
+    <p class="subjudul-section">Jajaran perangkat yang dapat dihubungi warga untuk berbagai keperluan administrasi.</p>
+    <div class="perangkat-grid" id="perangkat-grid"></div>
+  </div>
+</section>
+
+<!-- ============================== TIM KKNT ============================== -->
+<section id="kknt">
+  <div class="container">
+    <span class="eyebrow">03 — Tim Pengabdian</span>
+    <h2 class="judul-section">Tim KKNT</h2>
+    <p class="subjudul-section">Mahasiswa yang mengabdi dan berkolaborasi bersama warga desa selama periode KKNT.</p>
+
+    <div class="tim-bilah">
+      <div class="item"><span class="label">Periode</span><span class="nilai" id="kknt-periode"></span></div>
+      <div class="item"><span class="label">Dosen Pembimbing Lapangan</span><span class="nilai" id="kknt-dpl"></span></div>
+      <div class="item"><span class="label">Jumlah Anggota</span><span class="nilai" id="kknt-jumlah"></span></div>
+      <div class="item"><span class="label">Motto Tim</span><span class="nilai motto" id="kknt-motto"></span></div>
+    </div>
+
+    <div class="anggota-grid" id="anggota-grid"></div>
+  </div>
+</section>
+
+<div class="pembatas-anyaman"></div>
+
+<!-- ============================== PROGRAM KERJA ============================== -->
+<section id="proker" style="background:var(--krem-anyaman);">
+  <div class="container">
+    <span class="eyebrow">04 — Kegiatan Terencana</span>
+    <h2 class="judul-section">Program Kerja</h2>
+    <p class="subjudul-section">Rangkaian program yang dirancang untuk menjawab kebutuhan warga desa.</p>
+    <div class="proker-grid" id="proker-grid"></div>
+  </div>
+</section>
+
+<!-- ============================== DOKUMENTASI KEGIATAN ============================== -->
+<section id="kegiatan">
+  <div class="container">
+    <span class="eyebrow">05 — Jejak Langkah</span>
+    <h2 class="judul-section">Dokumentasi Kegiatan</h2>
+    <p class="subjudul-section">Catatan setiap kegiatan yang telah dilaksanakan. Klik judul untuk membuka detail.</p>
+    <div id="kegiatan-list"></div>
+  </div>
+</section>
+
+<div class="pembatas-anyaman"></div>
+
+<!-- ============================== GALERI FOTO ============================== -->
+<section id="galeri" style="background:var(--krem-anyaman);">
+  <div class="container">
+    <span class="eyebrow">06 — Momen Terbaik</span>
+    <h2 class="judul-section">Galeri Foto</h2>
+    <p class="subjudul-section">Kumpulan foto pilihan dari seluruh kegiatan. Klik foto untuk memperbesar.</p>
+    <div class="galeri-filter" id="galeri-filter"></div>
+    <div class="galeri-grid" id="galeri-grid"></div>
+  </div>
+</section>
+
+<!-- ============================== KONTAK & LOKASI ============================== -->
+<section id="kontak">
+  <div class="container">
+    <span class="eyebrow">07 — Hubungi Kami</span>
+    <h2 class="judul-section">Kontak &amp; Lokasi</h2>
+    <p class="subjudul-section">Sampaikan pertanyaan, masukan, atau ajakan kolaborasi kepada perangkat desa maupun tim KKNT.</p>
+
+    <div class="kontak-grid">
+      <div>
+        <ul class="kontak-list">
+          <li>
+            <span class="ikon">📍</span>
+            <div><span class="label">Alamat</span><span id="kontak-alamat"></span></div>
+          </li>
+          <li>
+            <span class="ikon">💬</span>
+            <div><span class="label">WhatsApp</span><a id="kontak-wa" target="_blank" rel="noopener"></a></div>
+          </li>
+          <li>
+            <span class="ikon">✉️</span>
+            <div><span class="label">Email</span><a id="kontak-email"></a></div>
+          </li>
+        </ul>
+        <div class="sosial-links" id="sosial-links"></div>
+
+        <div class="qr-box">
+          <div id="qrcode"></div>
+          <p>Pindai untuk membuka website ini di ponsel</p>
+          <p id="qr-url" style="margin-top:4px; font-size:0.72rem; word-break:break-all;"></p>
+        </div>
+      </div>
+      <div class="peta-wrap" style="aspect-ratio:auto; height:100%; min-height:420px;">
+        <iframe id="peta-kontak" loading="lazy" title="Peta lokasi kontak" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== LIGHTBOX ============================== -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-tutup" id="lightbox-tutup" aria-label="Tutup">&times;</button>
+  <div>
+    <img id="lightbox-img" src="" alt="" />
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
+</div>
+
+<!-- ============================== FOOTER ============================== -->
+<footer>
+  <div class="container">
+    <p>&copy; <span id="footer-tahun"></span> <strong id="footer-nama-desa">Desa</strong> — Website dibuat oleh Tim KKNT</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
