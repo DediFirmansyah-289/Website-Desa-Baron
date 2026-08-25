@@ -39,6 +39,7 @@ body {
   color: var(--coklat-tanah);
   line-height: 1.6;
   font-size: 16px;
+  overflow-x: hidden; /* mencegah scroll horizontal dari elemen dekoratif */
 }
 
 img { max-width: 100%; display: block; }
@@ -49,6 +50,10 @@ a { color: inherit; text-decoration: none; }
   max-width: var(--maks-lebar);
   margin: 0 auto;
   padding: 0 28px;
+}
+
+@media (max-width: 480px) {
+  .container { padding: 0 18px; }
 }
 
 h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; }
@@ -68,6 +73,11 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .subjudul-section { max-width: 640px; color: var(--coklat-muda); font-size: 1.02rem; margin-bottom: 44px; }
 
 section { padding: 88px 0; position: relative; }
+
+@media (max-width: 640px) {
+  section { padding: 56px 0; }
+  .subjudul-section { margin-bottom: 30px; }
+}
 
 /* ==========================================================================
    MOTIF ANYAMAN — elemen pembeda / signature
@@ -135,8 +145,30 @@ section { padding: 88px 0; position: relative; }
   position: relative;
   overflow: hidden;
 }
+@media (max-width: 640px) {
+  .hero { padding: 40px 0 0; }
+  .hero-inner { padding-bottom: 40px; }
+}
 .hero-kontur {
   position: absolute; inset: 0; opacity: 0.35; pointer-events: none;
+}
+.hero-pola-batik {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image: radial-gradient(circle, rgba(217,197,170,0.16) 1.4px, transparent 1.6px);
+  background-size: 26px 26px;
+  opacity: 0.7;
+}
+.hero-ikon-tugu {
+  position: absolute; right: 4%; top: 10%; width: 70px; height: auto;
+  opacity: 0.16; pointer-events: none; transform: rotate(-4deg);
+}
+.hero-ikon-padi {
+  position: absolute; left: 3%; bottom: 6%; width: 60px; height: auto;
+  opacity: 0.18; pointer-events: none; transform: rotate(8deg);
+}
+@media (max-width: 640px) {
+  .hero-ikon-tugu { width: 46px; right: 4%; top: 6%; }
+  .hero-ikon-padi { width: 40px; left: 4%; bottom: 4%; }
 }
 .hero-inner {
   position: relative; z-index: 1;
@@ -170,10 +202,15 @@ section { padding: 88px 0; position: relative; }
 .foto-placeholder {
   width: 100%; height: 100%; min-height: 140px;
   display: flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, var(--krem-anyaman), #e2d6b8);
+  background: linear-gradient(135deg, var(--krem-anyaman), #e8d9bf);
+  background-image:
+    radial-gradient(circle, rgba(84,28,37,0.06) 1.2px, transparent 1.4px),
+    linear-gradient(135deg, var(--krem-anyaman), #e8d9bf);
+  background-size: 18px 18px, 100% 100%;
   color: var(--coklat-muda);
   font-family: var(--font-mono); font-size: 0.72rem; text-align: center;
   padding: 10px; line-height: 1.4;
+  border: 1px solid rgba(84,28,37,0.1);
 }
 
 /* ==========================================================================
@@ -205,6 +242,10 @@ section { padding: 88px 0; position: relative; }
 @media (max-width: 860px) {
   .profil-grid, .batas-map-grid { grid-template-columns: 1fr; }
   .potensi-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 460px) {
+  .potensi-grid { grid-template-columns: 1fr; }
+  .batas-wilayah { grid-template-columns: 1fr; }
 }
 
 /* ==========================================================================

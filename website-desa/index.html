@@ -36,13 +36,34 @@
 
 <!-- ============================== HERO ============================== -->
 <header class="hero" id="beranda">
-  <svg class="hero-kontur" viewBox="0 0 1200 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lapisan 1: pola titik batik halus, memberi tekstur pada latar maroon -->
+  <div class="hero-pola-batik" aria-hidden="true"></div>
+
+  <!-- Lapisan 2: garis kontur sawah bertingkat -->
+  <svg class="hero-kontur" viewBox="0 0 1200 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <path d="M0 420 Q150 380 300 420 T600 420 T900 420 T1200 420 V500 H0 Z" fill="#d9c5aa" opacity="0.45"/>
     <path d="M0 450 Q200 410 400 450 T800 450 T1200 450 V500 H0 Z" fill="#8c3c46" opacity="0.55"/>
     <path d="M0 100 Q100 70 250 100 T550 100 T850 100 T1200 100" stroke="#f8f3ea" stroke-width="1.5" fill="none"/>
     <path d="M0 150 Q100 120 250 150 T550 150 T850 150 T1200 150" stroke="#f8f3ea" stroke-width="1.5" fill="none"/>
     <path d="M0 200 Q100 170 250 200 T550 200 T850 200 T1200 200" stroke="#f8f3ea" stroke-width="1.5" fill="none"/>
   </svg>
+
+  <!-- Lapisan 3: aksen ikon khas Baron — siluet Tugu Jotos & tangkai padi -->
+  <svg class="hero-ikon-tugu" viewBox="0 0 120 220" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M60 8 L78 40 L66 40 L66 60 L54 60 L54 40 L42 40 Z" fill="#d9c5aa"/>
+    <rect x="50" y="60" width="20" height="90" fill="#d9c5aa"/>
+    <path d="M30 150 L90 150 L100 210 L20 210 Z" fill="#d9c5aa"/>
+    <rect x="15" y="205" width="90" height="10" fill="#d9c5aa"/>
+  </svg>
+  <svg class="hero-ikon-padi" viewBox="0 0 100 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M50 160 C50 100 50 60 50 10" stroke="#d9c5aa" stroke-width="3" fill="none"/>
+    <path d="M50 20 Q30 10 20 -2 Q40 2 50 20" fill="#d9c5aa"/>
+    <path d="M50 35 Q70 25 80 13 Q60 17 50 35" fill="#d9c5aa"/>
+    <path d="M50 50 Q30 40 20 28 Q40 32 50 50" fill="#d9c5aa"/>
+    <path d="M50 65 Q70 55 80 43 Q60 47 50 65" fill="#d9c5aa"/>
+    <path d="M50 80 Q30 70 20 58 Q40 62 50 80" fill="#d9c5aa"/>
+  </svg>
+
   <div class="container hero-inner">
     <div class="hero-teks">
       <span class="eyebrow">Profil Desa &amp; Dokumentasi KKNT</span>
