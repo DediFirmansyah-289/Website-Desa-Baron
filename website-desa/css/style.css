@@ -149,8 +149,19 @@ section { padding: 88px 0; position: relative; }
   .hero { padding: 40px 0 0; }
   .hero-inner { padding-bottom: 40px; }
 }
-.hero-kontur {
-  position: absolute; inset: 0; pointer-events: none;
+.hero-foto-bg {
+  position: absolute; inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.hero-overlay {
+  position: absolute; inset: 0; z-index: 0;
+  /* Overlay gradasi maroon agar teks tetap kontras di atas foto apa pun */
+  background: linear-gradient(180deg,
+    rgba(57,17,25,0.82) 0%,
+    rgba(84,28,37,0.72) 45%,
+    rgba(84,28,37,0.88) 100%);
 }
 
 .hero-inner {
