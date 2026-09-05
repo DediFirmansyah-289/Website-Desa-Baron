@@ -1,317 +1,46 @@
 {
-  "desa": {
-    "nama": "Baron",
-    "kecamatan": "Kecamatan Baron",
-    "kabupaten": "Kabupaten Nganjuk",
-    "provinsi": "Jawa Timur",
-    "tagline": "Ibu kota Kecamatan Baron, hamparan sawah dan cita rasa kuliner khas",
-    "sejarah": "Baron adalah desa yang menjadi ibu kota Kecamatan Baron, Kabupaten Nganjuk, Jawa Timur. Desa ini dikenal dengan pemandangan hamparan sawah yang indah serta ikon Tugu Jotos di perempatan lampu merah Baron — sebuah tugu unik yang bentuknya jarang ditemui di daerah lain. Nama \"Baron\" dipercaya berasal dari seorang musafir alim bernama Bahron, penyebar ajaran Islam sekaligus ahli pengobatan tradisional yang sangat dihormati warga pada masa lalu. Karena kesulitan lidah warga setempat melafalkan \"Bahron\", sebutan itu lambat laun bergeser dan melekat menjadi \"Baron\" hingga sekarang. Seiring waktu, wilayah ini berkembang menjadi pusat administrasi dan ekonomi di kawasan Kertosono Raya. Secara turun-temurun, wilayah desa mencakup beberapa dusun utama, yaitu Dusun Baron Timur, Wates, Padasan, dan Lobeser.",
-    "visi": "Visi desa belum diisi — silakan tanyakan ke kepala desa dan isi lewat halaman admin.",
-    "misi": [
-      "Misi desa belum diisi — tambahkan poin lewat halaman admin."
-    ],
-    "luasWilayah": "114 Ha",
-    "jumlahPenduduk": {
-      "total": 4961,
-      "lakiLaki": 2443,
-      "perempuan": 2518
-    },
-    "jumlahRT": 0,
-    "jumlahRW": 0,
-    "fotoDesa": "assets/images/foto-desa.jpg",
-    "fotoKantorDesa": "assets/images/kantor-desa.jpg",
-    "mapsEmbedUrl": "https://www.google.com/maps?q=-7.6035264,112.0526525&output=embed",
-    "batasWilayah": {
-      "utara": "Kecamatan Lengkong",
-      "selatan": "Kecamatan Ngronggot",
-      "timur": "Kecamatan Kertosono / Patianrowo",
-      "barat": "Kecamatan Tanjunganom"
-    },
-    "potensi": [
-      {
-        "nama": "Hamparan Sawah",
-        "ikon": "leaf",
-        "deskripsi": "Baron memiliki pemandangan sawah yang cukup indah, membentang di sekitar wilayah desa."
-      },
-      {
-        "nama": "Tugu Jotos",
-        "ikon": "landmark",
-        "deskripsi": "Ikon khas Desa Baron di perempatan lampu merah Baron, bentuknya unik dan jarang ditemui di daerah lain."
-      },
-      {
-        "nama": "Kuliner Khas Baron",
-        "ikon": "food",
-        "deskripsi": "Rumah Makan Sekar Melati dan Depot Lezat menjadi tempat makan favorit yang enak dan unik di Baron."
-      }
-    ]
-  },
-  "perangkat": [
-    {
-      "nama": "Bapak Ahmad Sutrisno",
-      "jabatan": "Kepala Desa",
-      "kontak": "081234567890",
-      "foto": "assets/images/perangkat-kades.jpg"
-    },
-    {
-      "nama": "Ibu Ratna Dewi",
-      "jabatan": "Sekretaris Desa",
-      "kontak": "081234567891",
-      "foto": "assets/images/perangkat-sekdes.jpg"
-    },
-    {
-      "nama": "Bapak Yayan Suryana",
-      "jabatan": "Kepala Dusun 1",
-      "kontak": "081234567892",
-      "foto": "assets/images/perangkat-kadus1.jpg"
-    },
-    {
-      "nama": "Bapak Dedi Kurniawan",
-      "jabatan": "Ketua RW 03",
-      "kontak": "081234567893",
-      "foto": "assets/images/perangkat-rw03.jpg"
-    },
-    {
-      "nama": "Ibu Siti Aminah",
-      "jabatan": "Kaur Keuangan",
-      "kontak": "081234567894",
-      "foto": "assets/images/perangkat-kaur.jpg"
-    },
-    {
-      "nama": "Bapak Endang Setiawan",
-      "jabatan": "Ketua RT 05 / RW 03",
-      "kontak": "081234567895",
-      "foto": "assets/images/perangkat-rt05.jpg"
-    }
-  ],
   "kknt": {
-    "periodeMulai": "2026-07-01",
-    "periodeSelesai": "2026-08-30",
-    "dpl": "Dr. Farah Nurul Aini, S.P., M.Si.",
-    "motto": "Berkarya, Berkolaborasi, Berdampak untuk Sukamaju",
+    "periodeMulai": "2026-08-13",
+    "periodeSelesai": "2026-09-25",
+    "dpl": "Dr. Septina Alrianingrum, S.S., M.Pd.",
+    "motto": "Berkarya untuk Baron",
     "anggota": [
       {
-        "nama": "Muhammad Rizky Pratama",
-        "universitas": "Universitas Padjadjaran",
-        "prodi": "Agroteknologi",
-        "divisi": "Ketua Tim",
-        "foto": "assets/images/anggota-1.jpg"
-      },
-      {
-        "nama": "Naila Salsabila",
-        "universitas": "Universitas Padjadjaran",
-        "prodi": "Ilmu Komunikasi",
-        "divisi": "Humas",
-        "foto": "assets/images/anggota-2.jpg"
-      },
-      {
-        "nama": "Bagas Adi Nugroho",
-        "universitas": "Institut Teknologi Bandung",
-        "prodi": "Teknik Informatika",
-        "divisi": "PDD (Publikasi, Dokumentasi & Desain)",
-        "foto": "assets/images/anggota-3.jpg"
-      },
-      {
-        "nama": "Putri Ayu Lestari",
-        "universitas": "Universitas Pendidikan Indonesia",
-        "prodi": "Pendidikan Guru SD",
-        "divisi": "Divisi Pendidikan",
-        "foto": "assets/images/anggota-4.jpg"
-      },
-      {
-        "nama": "Fajar Ramadhan",
-        "universitas": "Universitas Padjadjaran",
-        "prodi": "Ilmu Ekonomi",
-        "divisi": "Divisi Ekonomi & UMKM",
-        "foto": "assets/images/anggota-5.jpg"
-      },
-      {
-        "nama": "Nadia Rahmawati",
-        "universitas": "Universitas Pendidikan Indonesia",
-        "prodi": "Kesehatan Masyarakat",
-        "divisi": "Divisi Kesehatan",
-        "foto": "assets/images/anggota-6.jpg"
-      },
-      {
-        "nama": "Reza Firmansyah",
-        "universitas": "Institut Teknologi Bandung",
-        "prodi": "Teknik Lingkungan",
-        "divisi": "Divisi Lingkungan",
-        "foto": "assets/images/anggota-7.jpg"
-      },
-      {
-        "nama": "Dinda Kusuma Wardani",
-        "universitas": "Universitas Padjadjaran",
-        "prodi": "Administrasi Publik",
-        "divisi": "Sekretaris Tim",
-        "foto": "assets/images/anggota-8.jpg"
-      },
-      {
-        "nama": "Yoga Pramudya",
-        "universitas": "Universitas Padjadjaran",
-        "prodi": "Manajemen",
-        "divisi": "Bendahara Tim",
-        "foto": "assets/images/anggota-9.jpg"
-      },
-      {
-        "nama": "Alya Zahra Putri",
-        "universitas": "Universitas Pendidikan Indonesia",
-        "prodi": "Ilmu Gizi",
-        "divisi": "Divisi Konsumsi",
-        "foto": "assets/images/anggota-10.jpg"
+        "nama": "Fatsilah Fadlika Dwiputra",
+        "universitas": "UNIVERSITAS NEGERI SURABAYA",
+        "prodi": "S1 Manajemen",
+        "divisi": "Ketua Koordinator"
       }
     ]
   },
-  "programKerja": [
-    {
-      "nama": "Sukamaju Mengajar",
-      "deskripsi": "Bimbingan belajar sore untuk siswa SD dan SMP di balai desa, fokus pada literasi dan numerasi dasar.",
-      "penanggungJawab": "Putri Ayu Lestari",
-      "sasaran": "Siswa SD & SMP",
-      "tanggal": "2026-07-05",
-      "kategori": "Pendidikan",
-      "thumbnail": "assets/images/proker-mengajar.jpg"
+  "desa": {
+    "jumlahPenduduk": {
+      "total": 6000,
+      "perempuan": 3600,
+      "lakiLaki": 2400
     },
-    {
-      "nama": "Posyandu Sehat Balita",
-      "deskripsi": "Pendampingan kegiatan posyandu bulanan, penyuluhan gizi, dan pemeriksaan kesehatan balita bersama kader.",
-      "penanggungJawab": "Nadia Rahmawati",
-      "sasaran": "Balita & Ibu Hamil",
-      "tanggal": "2026-07-10",
-      "kategori": "Kesehatan",
-      "thumbnail": "assets/images/proker-posyandu.jpg"
+    "kabupaten": "Nganjuk",
+    "provinsi": "Jawa Timur",
+    "nama": "Baron",
+    "visi": "Mewujudkan Desa Baron yang Maju, Mandiri, Sejahtera, dan Berakhlak Mulia melalui Pelayanan Publik yang Akuntabel serta Optimalisasi Potensi Pertanian dan Ekonomi Lokal.",
+    "mapsEmbedUrl": "https://maps.app.goo.gl/9nh2k3K8tmn6kv6i6",
+    "tagline": "Baron Kota Jotos",
+    "sejarah": "Asal-usul pembukaan wilayah (babad alas) Desa Baron secara adat lokal sangat erat kaitannya dengan figur leluhur Mbah Sumur Gedhe. Tradisi ritual tahunan nyekar dan bersih desa di Punden Mbah Sumur Gedhe hingga kini masih rutin dijaga oleh masyarakat setempat sebagai wujud syukur dan penghormatan sejarah.",
+    "batasWilayah": {
+      "utara": "Desa Waung",
+      "selatan": "Desa Sambiroto",
+      "timur": "Kelurahan Banaran & Desa Pandantoyo (Kecamatan Kertosono)",
+      "barat": "Desa Jekek"
     },
-    {
-      "nama": "Pelatihan Digital Marketing UMKM",
-      "deskripsi": "Pelatihan foto produk dan pemasaran online bagi pelaku UMKM kerajinan bambu dan olahan sayur desa.",
-      "penanggungJawab": "Fajar Ramadhan",
-      "sasaran": "Pelaku UMKM",
-      "tanggal": "2026-07-18",
-      "kategori": "Ekonomi",
-      "thumbnail": "assets/images/proker-umkm.jpg"
-    },
-    {
-      "nama": "Sukamaju Bersih & Hijau",
-      "deskripsi": "Kerja bakti pembersihan sungai, penanaman pohon, dan edukasi pemilahan sampah rumah tangga.",
-      "penanggungJawab": "Reza Firmansyah",
-      "sasaran": "Seluruh Warga",
-      "tanggal": "2026-07-25",
-      "kategori": "Lingkungan",
-      "thumbnail": "assets/images/proker-bersih.jpg"
-    },
-    {
-      "nama": "Malam Kreasi Budaya Desa",
-      "deskripsi": "Pentas seni dan lomba antar-RW untuk mempererat kebersamaan warga sekaligus melestarikan budaya lokal.",
-      "penanggungJawab": "Naila Salsabila",
-      "sasaran": "Warga Semua Usia",
-      "tanggal": "2026-08-15",
-      "kategori": "Sosial",
-      "thumbnail": "assets/images/proker-budaya.jpg"
-    }
-  ],
-  "kegiatan": [
-    {
-      "judul": "Pembukaan Bimbel Sukamaju Mengajar",
-      "tanggal": "2026-07-05",
-      "waktu": "15:30 WIB",
-      "lokasi": "Balai Desa Sukamaju",
-      "kategori": "Pendidikan",
-      "deskripsi": "Bimbingan belajar perdana diikuti 42 siswa SD dan SMP dengan\n        antusias tinggi. Kegiatan diawali perkenalan tim KKNT dan pemetaan\n        kemampuan dasar membaca serta berhitung siswa.\n\n        Orang tua menyambut baik program ini karena selama ini akses\n        bimbingan belajar di desa masih terbatas.",
-      "foto": [
-        "assets/images/kegiatan-mengajar-1.jpg",
-        "assets/images/kegiatan-mengajar-2.jpg",
-        "assets/images/kegiatan-mengajar-3.jpg"
-      ],
-      "testimoni": {
-        "nama": "Ibu Yani, warga RW 02",
-        "isi": "Anak saya jadi lebih semangat belajar sejak ada kakak-kakak KKN."
-      },
-      "videoYoutubeId": ""
-    },
-    {
-      "judul": "Posyandu Balita Bulan Juli",
-      "tanggal": "2026-07-10",
-      "waktu": "08:00 WIB",
-      "lokasi": "Posyandu Melati, RW 03",
-      "kategori": "Kesehatan",
-      "deskripsi": "Tim mendampingi kader posyandu dalam penimbangan dan\n        pengukuran tinggi badan 65 balita, dilanjutkan penyuluhan gizi\n        seimbang untuk ibu hamil dan menyusui.\n\n        Ditemukan 3 balita dengan status gizi kurang yang langsung\n        dirujuk untuk pendampingan lanjutan oleh bidan desa.",
-      "foto": [
-        "assets/images/kegiatan-posyandu-1.jpg",
-        "assets/images/kegiatan-posyandu-2.jpg"
-      ],
-      "testimoni": {
-        "nama": "Kader Posyandu Melati",
-        "isi": "Terima kasih sudah membantu kelancaran posyandu bulan ini."
-      },
-      "videoYoutubeId": ""
-    },
-    {
-      "judul": "Pelatihan Foto Produk UMKM",
-      "tanggal": "2026-07-18",
-      "waktu": "13:00 WIB",
-      "lokasi": "Sanggar UMKM Anyaman Bambu",
-      "kategori": "Ekonomi",
-      "deskripsi": "Sebanyak 15 pelaku UMKM belajar teknik foto produk sederhana\n        menggunakan ponsel dan membuat akun toko online. Peserta langsung\n        praktik memotret produk anyaman bambu dan keripik sayur.",
-      "foto": [
-        "assets/images/kegiatan-umkm-1.jpg",
-        "assets/images/kegiatan-umkm-2.jpg",
-        "assets/images/kegiatan-umkm-3.jpg"
-      ],
-      "testimoni": {
-        "nama": "Pak Ujang, perajin bambu",
-        "isi": "Sekarang saya sudah bisa upload produk sendiri di marketplace."
-      },
-      "videoYoutubeId": ""
-    }
-  ],
-  "galeri": [
-    {
-      "src": "assets/images/galeri-1.jpg",
-      "caption": "Suasana belajar bersama di balai desa",
-      "kategori": "Pendidikan"
-    },
-    {
-      "src": "assets/images/galeri-2.jpg",
-      "caption": "Penimbangan balita di posyandu",
-      "kategori": "Kesehatan"
-    },
-    {
-      "src": "assets/images/galeri-3.jpg",
-      "caption": "Pelatihan foto produk UMKM bambu",
-      "kategori": "Ekonomi"
-    },
-    {
-      "src": "assets/images/galeri-4.jpg",
-      "caption": "Kerja bakti bersih sungai",
-      "kategori": "Lingkungan"
-    },
-    {
-      "src": "assets/images/galeri-5.jpg",
-      "caption": "Latihan tari untuk malam budaya",
-      "kategori": "Sosial"
-    },
-    {
-      "src": "assets/images/galeri-6.jpg",
-      "caption": "Panen sayur bersama kelompok tani",
-      "kategori": "Ekonomi"
-    },
-    {
-      "src": "assets/images/galeri-7.jpg",
-      "caption": "Sesi cerita untuk anak-anak",
-      "kategori": "Pendidikan"
-    },
-    {
-      "src": "assets/images/galeri-8.jpg",
-      "caption": "Penanaman pohon di bantaran sungai",
-      "kategori": "Lingkungan"
-    }
-  ],
+    "jumlahRT": 6,
+    "kecamatan": "Baron",
+    "jumlahRW": 0,
+    "luasWilayah": "114"
+  },
   "kontak": {
-    "alamat": "Kantor Desa Baron, Kec. Baron, Kab. Nganjuk, Jawa Timur 64394",
-    "whatsapp": "6281234567890",
-    "email": "desasukamaju@gmail.com",
-    "instagramDesa": "https://instagram.com/desasukamaju",
-    "facebookDesa": "https://facebook.com/desasukamaju",
-    "instagramKKNT": "https://instagram.com/kknt.sukamaju2026",
-    "urlWebsiteIni": "https://desasukamaju.netlify.app"
+    "urlWebsiteIni": "https://desabaron.netlify.app",
+    "email": "25051204289@mhs.unesa.ac.id",
+    "alamat": "93V2+6P3, Jl. Ngronggot, Lobesar, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+    "whatsapp": "085648692650"
   }
 }
