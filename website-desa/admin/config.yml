@@ -18,8 +18,8 @@ logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 site_url: https://desabaron.netlify.app
 
 # Tempat menyimpan foto yang diunggah lewat form admin
-media_folder: "assets/images"
-public_folder: "assets/images"
+media_folder: "website-desa/assets/images"
+public_folder: "website-desa/assets/images"
 
 # Panel admin akan tampil dalam Bahasa Indonesia
 locale: "id"
@@ -30,7 +30,7 @@ collections:
     files:
       - name: "data"
         label: "Semua Data Website"
-        file: "content/data.json"
+        file: "website-desa/content/data.json"
         fields:
 
           - label: "Profil Desa"
