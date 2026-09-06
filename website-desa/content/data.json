@@ -18,7 +18,7 @@
     },
     "jumlahRT": 0,
     "jumlahRW": 0,
-    "fotoDesa": "assets/images/foto-desa.jpg",
+    "fotoDesa": "assets/images/foto-desa.png",
     "fotoKantorDesa": "assets/images/kantor-desa.jpg",
     "mapsEmbedUrl": "https://www.google.com/maps?q=-7.6035264,112.0526525&output=embed",
     "batasWilayah": {
@@ -343,10 +343,10 @@
   "kontak": {
     "alamat": "Kantor Desa Baron, Kec. Baron, Kab. Nganjuk, Jawa Timur 64394",
     "whatsapp": "6281234567890",
-    "email": "desasukamaju@gmail.com",
-    "instagramDesa": "https://instagram.com/desasukamaju",
-    "facebookDesa": "https://facebook.com/desasukamaju",
-    "instagramKKNT": "https://instagram.com/kknt.sukamaju2026",
-    "urlWebsiteIni": "https://desasukamaju.netlify.app"
+    "email": "desabaron@gmail.com",
+    "instagramDesa": "https://instagram.com/desabaron",
+    "facebookDesa": "https://facebook.com/desabaron",
+    "instagramKKNT": "https://instagram.com/kknt.baron2026",
+    "urlWebsiteIni": "https://desabaron.netlify.app"
   }
 }
