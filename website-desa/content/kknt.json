@@ -1,0 +1,18 @@
+{
+  "periodeMulai": "2026-07-01",
+  "periodeSelesai": "2026-08-30",
+  "dpl": "Dr. Farah Nurul Aini, S.P., M.Si.",
+  "motto": "Berkarya, Berkolaborasi, Berdampak untuk Sukamaju",
+  "anggota": [
+    { "nama": "Muhammad Rizky Pratama", "universitas": "Universitas Padjadjaran", "prodi": "Agroteknologi", "divisi": "Ketua Tim", "foto": "assets/images/anggota-1.jpg" },
+    { "nama": "Naila Salsabila", "universitas": "Universitas Padjadjaran", "prodi": "Ilmu Komunikasi", "divisi": "Humas", "foto": "assets/images/anggota-2.jpg" },
+    { "nama": "Bagas Adi Nugroho", "universitas": "Institut Teknologi Bandung", "prodi": "Teknik Informatika", "divisi": "PDD (Publikasi, Dokumentasi & Desain)", "foto": "assets/images/anggota-3.jpg" },
+    { "nama": "Putri Ayu Lestari", "universitas": "Universitas Pendidikan Indonesia", "prodi": "Pendidikan Guru SD", "divisi": "Divisi Pendidikan", "foto": "assets/images/anggota-4.jpg" },
+    { "nama": "Fajar Ramadhan", "universitas": "Universitas Padjadjaran", "prodi": "Ilmu Ekonomi", "divisi": "Divisi Ekonomi & UMKM", "foto": "assets/images/anggota-5.jpg" },
+    { "nama": "Nadia Rahmawati", "universitas": "Universitas Pendidikan Indonesia", "prodi": "Kesehatan Masyarakat", "divisi": "Divisi Kesehatan", "foto": "assets/images/anggota-6.jpg" },
+    { "nama": "Reza Firmansyah", "universitas": "Institut Teknologi Bandung", "prodi": "Teknik Lingkungan", "divisi": "Divisi Lingkungan", "foto": "assets/images/anggota-7.jpg" },
+    { "nama": "Dinda Kusuma Wardani", "universitas": "Universitas Padjadjaran", "prodi": "Administrasi Publik", "divisi": "Sekretaris Tim", "foto": "assets/images/anggota-8.jpg" },
+    { "nama": "Yoga Pramudya", "universitas": "Universitas Padjadjaran", "prodi": "Manajemen", "divisi": "Bendahara Tim", "foto": "assets/images/anggota-9.jpg" },
+    { "nama": "Alya Zahra Putri", "universitas": "Universitas Pendidikan Indonesia", "prodi": "Ilmu Gizi", "divisi": "Divisi Konsumsi", "foto": "assets/images/anggota-10.jpg" }
+  ]
+}

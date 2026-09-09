@@ -5,12 +5,43 @@
    ingin ubah tampilan/logika, bukan konten.
    ========================================================================== */
 
+/* ==========================================================================
+   MAIN.JS — mengambil data dari 7 file JSON terpisah (satu file per bagian),
+   lalu digabung jadi satu DATA object untuk dirender ke halaman.
+   Data bisa diedit lewat /admin (CMS) ATAU langsung edit file JSON di folder
+   content/ secara manual. Mengedit satu bagian TIDAK menyentuh file bagian
+   lain, jadi lebih aman. Tidak perlu diedit kecuali ingin ubah tampilan/logika.
+   ========================================================================== */
+
 let DATA = null;
 
-async function muatData() {
-  const res = await fetch("content/data.json", { cache: "no-store" });
-  if (!res.ok) throw new Error("Gagal memuat content/data.json");
+async function ambilJSON(nama) {
+  const res = await fetch(`content/${nama}.json`, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Gagal memuat content/${nama}.json`);
   return res.json();
+}
+
+async function muatData() {
+  const [desa, perangkatFile, kknt, prokerFile, kegiatanFile, galeriFile, kontak] =
+    await Promise.all([
+      ambilJSON("desa"),
+      ambilJSON("perangkat"),
+      ambilJSON("kknt"),
+      ambilJSON("proker"),
+      ambilJSON("kegiatan"),
+      ambilJSON("galeri"),
+      ambilJSON("kontak"),
+    ]);
+
+  return {
+    desa,
+    perangkat: perangkatFile.perangkat,
+    kknt,
+    programKerja: prokerFile.programKerja,
+    kegiatan: kegiatanFile.kegiatan,
+    galeri: galeriFile.galeri,
+    kontak,
+  };
 }
 
 const WARNA_KATEGORI = {

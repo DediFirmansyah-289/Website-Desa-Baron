@@ -1,0 +1,10 @@
+{
+  "perangkat": [
+    { "nama": "Bapak Ahmad Sutrisno", "jabatan": "Kepala Desa", "kontak": "081234567890", "foto": "assets/images/perangkat-kades.jpg" },
+    { "nama": "Ibu Ratna Dewi", "jabatan": "Sekretaris Desa", "kontak": "081234567891", "foto": "assets/images/perangkat-sekdes.jpg" },
+    { "nama": "Bapak Yayan Suryana", "jabatan": "Kepala Dusun 1", "kontak": "081234567892", "foto": "assets/images/perangkat-kadus1.jpg" },
+    { "nama": "Bapak Dedi Kurniawan", "jabatan": "Ketua RW 03", "kontak": "081234567893", "foto": "assets/images/perangkat-rw03.jpg" },
+    { "nama": "Ibu Siti Aminah", "jabatan": "Kaur Keuangan", "kontak": "081234567894", "foto": "assets/images/perangkat-kaur.jpg" },
+    { "nama": "Bapak Endang Setiawan", "jabatan": "Ketua RT 05 / RW 03", "kontak": "081234567895", "foto": "assets/images/perangkat-rt05.jpg" }
+  ]
+}

@@ -24,67 +24,74 @@ public_folder: "website-desa/assets/images"
 # Panel admin akan tampil dalam Bahasa Indonesia
 locale: "id"
 
+# ============================================================================
+# SETIAP BAGIAN SEKARANG PUNYA FILE JSON SENDIRI-SENDIRI.
+# Mengedit satu bagian (misal Tim KKNT) HANYA menyentuh file kknt.json,
+# tidak akan mengubah/mengganggu file bagian lain sama sekali.
+# ============================================================================
 collections:
   - name: "website"
     label: "Website Desa"
     files:
-      - name: "data"
-        label: "Semua Data Website"
-        file: "website-desa/content/data.json"
-        fields:
 
-          - label: "Profil Desa"
-            name: "desa"
+      # ---------------------- 1. PROFIL DESA ----------------------
+      - name: "profil_desa"
+        label: "1. Profil Desa"
+        file: "website-desa/content/desa.json"
+        fields:
+          - { label: "Nama Desa", name: "nama", widget: "string" }
+          - { label: "Kecamatan", name: "kecamatan", widget: "string" }
+          - { label: "Kabupaten/Kota", name: "kabupaten", widget: "string" }
+          - { label: "Provinsi", name: "provinsi", widget: "string" }
+          - { label: "Tagline / Slogan", name: "tagline", widget: "string" }
+          - { label: "Sejarah Singkat", name: "sejarah", widget: "text" }
+          - { label: "Visi", name: "visi", widget: "text" }
+          - label: "Misi (satu baris = satu poin)"
+            name: "misi"
+            widget: "list"
+            field: { label: "Poin Misi", name: "item", widget: "string" }
+          - { label: "Luas Wilayah (contoh: 114 Ha)", name: "luasWilayah", widget: "string" }
+          - label: "Jumlah Penduduk"
+            name: "jumlahPenduduk"
             widget: "object"
             fields:
-              - { label: "Nama Desa", name: "nama", widget: "string" }
-              - { label: "Kecamatan", name: "kecamatan", widget: "string" }
-              - { label: "Kabupaten/Kota", name: "kabupaten", widget: "string" }
-              - { label: "Provinsi", name: "provinsi", widget: "string" }
-              - { label: "Tagline / Slogan", name: "tagline", widget: "string" }
-              - { label: "Sejarah Singkat", name: "sejarah", widget: "text" }
-              - { label: "Visi", name: "visi", widget: "text" }
-              - label: "Misi (satu baris = satu poin)"
-                name: "misi"
-                widget: "list"
-                field: { label: "Poin Misi", name: "item", widget: "string" }
-              - { label: "Luas Wilayah (contoh: 114 Ha)", name: "luasWilayah", widget: "string" }
-              - label: "Jumlah Penduduk"
-                name: "jumlahPenduduk"
-                widget: "object"
-                fields:
-                  - { label: "Total", name: "total", widget: "number", value_type: "int" }
-                  - { label: "Laki-laki", name: "lakiLaki", widget: "number", value_type: "int" }
-                  - { label: "Perempuan", name: "perempuan", widget: "number", value_type: "int" }
-              - { label: "Jumlah RT", name: "jumlahRT", widget: "number", value_type: "int" }
-              - { label: "Jumlah RW", name: "jumlahRW", widget: "number", value_type: "int" }
-              - { label: "Foto Desa", name: "fotoDesa", widget: "image", required: false }
-              - { label: "Foto Kantor Desa", name: "fotoKantorDesa", widget: "image", required: false }
-              - label: "Link Embed Google Maps"
-                name: "mapsEmbedUrl"
-                widget: "string"
-                hint: "Google Maps → Bagikan → Sematkan peta → salin bagian src=\"...\" saja"
-              - label: "Batas Wilayah"
-                name: "batasWilayah"
-                widget: "object"
-                fields:
-                  - { label: "Utara", name: "utara", widget: "string" }
-                  - { label: "Selatan", name: "selatan", widget: "string" }
-                  - { label: "Timur", name: "timur", widget: "string" }
-                  - { label: "Barat", name: "barat", widget: "string" }
-              - label: "Potensi Desa"
-                name: "potensi"
-                widget: "list"
-                summary: "{{nama}}"
-                fields:
-                  - { label: "Nama Potensi", name: "nama", widget: "string" }
-                  - label: "Ikon"
-                    name: "ikon"
-                    widget: "select"
-                    options: ["leaf", "scissors", "mountain", "cow", "landmark", "food"]
-                  - { label: "Deskripsi", name: "deskripsi", widget: "text" }
+              - { label: "Total", name: "total", widget: "number", value_type: "int" }
+              - { label: "Laki-laki", name: "lakiLaki", widget: "number", value_type: "int" }
+              - { label: "Perempuan", name: "perempuan", widget: "number", value_type: "int" }
+          - { label: "Jumlah RT", name: "jumlahRT", widget: "number", value_type: "int" }
+          - { label: "Jumlah RW", name: "jumlahRW", widget: "number", value_type: "int" }
+          - { label: "Foto Desa", name: "fotoDesa", widget: "image", required: false }
+          - { label: "Foto Kantor Desa", name: "fotoKantorDesa", widget: "image", required: false }
+          - label: "Link Embed Google Maps"
+            name: "mapsEmbedUrl"
+            widget: "string"
+            hint: "Google Maps → Bagikan → Sematkan peta → salin bagian src=\"...\" saja"
+          - label: "Batas Wilayah"
+            name: "batasWilayah"
+            widget: "object"
+            fields:
+              - { label: "Utara", name: "utara", widget: "string" }
+              - { label: "Selatan", name: "selatan", widget: "string" }
+              - { label: "Timur", name: "timur", widget: "string" }
+              - { label: "Barat", name: "barat", widget: "string" }
+          - label: "Potensi Desa"
+            name: "potensi"
+            widget: "list"
+            summary: "{{nama}}"
+            fields:
+              - { label: "Nama Potensi", name: "nama", widget: "string" }
+              - label: "Ikon"
+                name: "ikon"
+                widget: "select"
+                options: ["leaf", "scissors", "mountain", "cow", "landmark", "food"]
+              - { label: "Deskripsi", name: "deskripsi", widget: "text" }
 
-          - label: "Perangkat Desa"
+      # ---------------------- 2. PERANGKAT DESA ----------------------
+      - name: "perangkat_desa"
+        label: "2. Perangkat Desa"
+        file: "website-desa/content/perangkat.json"
+        fields:
+          - label: "Daftar Perangkat Desa"
             name: "perangkat"
             widget: "list"
             summary: "{{nama}} — {{jabatan}}"
@@ -94,26 +101,32 @@ collections:
               - { label: "Nomor WhatsApp/Kontak", name: "kontak", widget: "string" }
               - { label: "Foto", name: "foto", widget: "image", required: false }
 
-          - label: "Tim KKNT"
-            name: "kknt"
-            widget: "object"
+      # ---------------------- 3. TIM KKNT ----------------------
+      - name: "tim_kknt"
+        label: "3. Tim KKNT"
+        file: "website-desa/content/kknt.json"
+        fields:
+          - { label: "Tanggal Mulai", name: "periodeMulai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
+          - { label: "Tanggal Selesai", name: "periodeSelesai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
+          - { label: "Dosen Pembimbing Lapangan (DPL)", name: "dpl", widget: "string" }
+          - { label: "Motto Tim", name: "motto", widget: "string" }
+          - label: "Anggota Tim"
+            name: "anggota"
+            widget: "list"
+            summary: "{{nama}} — {{divisi}}"
             fields:
-              - { label: "Tanggal Mulai", name: "periodeMulai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
-              - { label: "Tanggal Selesai", name: "periodeSelesai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
-              - { label: "Dosen Pembimbing Lapangan (DPL)", name: "dpl", widget: "string" }
-              - { label: "Motto Tim", name: "motto", widget: "string" }
-              - label: "Anggota Tim"
-                name: "anggota"
-                widget: "list"
-                summary: "{{nama}} — {{divisi}}"
-                fields:
-                  - { label: "Nama Lengkap", name: "nama", widget: "string" }
-                  - { label: "Universitas", name: "universitas", widget: "string" }
-                  - { label: "Program Studi", name: "prodi", widget: "string" }
-                  - { label: "Divisi", name: "divisi", widget: "string" }
-                  - { label: "Foto", name: "foto", widget: "image", required: false }
+              - { label: "Nama Lengkap", name: "nama", widget: "string" }
+              - { label: "Universitas", name: "universitas", widget: "string" }
+              - { label: "Program Studi", name: "prodi", widget: "string" }
+              - { label: "Divisi", name: "divisi", widget: "string" }
+              - { label: "Foto", name: "foto", widget: "image", required: false }
 
-          - label: "Program Kerja"
+      # ---------------------- 4. PROGRAM KERJA ----------------------
+      - name: "program_kerja"
+        label: "4. Program Kerja"
+        file: "website-desa/content/proker.json"
+        fields:
+          - label: "Daftar Program Kerja"
             name: "programKerja"
             widget: "list"
             summary: "{{nama}}"
@@ -129,7 +142,12 @@ collections:
                 options: ["Pendidikan", "Kesehatan", "Ekonomi", "Lingkungan", "Sosial"]
               - { label: "Foto Thumbnail", name: "thumbnail", widget: "image", required: false }
 
-          - label: "Dokumentasi Kegiatan"
+      # ---------------------- 5. DOKUMENTASI KEGIATAN ----------------------
+      - name: "dokumentasi_kegiatan"
+        label: "5. Dokumentasi Kegiatan"
+        file: "website-desa/content/kegiatan.json"
+        fields:
+          - label: "Daftar Kegiatan"
             name: "kegiatan"
             widget: "list"
             summary: "{{judul}} — {{tanggal}}"
@@ -160,7 +178,12 @@ collections:
                 required: false
                 hint: "Contoh: dari link youtube.com/watch?v=ABC123, isi ABC123 saja"
 
-          - label: "Galeri Foto"
+      # ---------------------- 6. GALERI FOTO ----------------------
+      - name: "galeri_foto"
+        label: "6. Galeri Foto"
+        file: "website-desa/content/galeri.json"
+        fields:
+          - label: "Daftar Foto Galeri"
             name: "galeri"
             widget: "list"
             summary: "{{caption}}"
@@ -172,20 +195,21 @@ collections:
                 widget: "select"
                 options: ["Pendidikan", "Kesehatan", "Ekonomi", "Lingkungan", "Sosial"]
 
-          - label: "Kontak & Lokasi"
-            name: "kontak"
-            widget: "object"
-            fields:
-              - { label: "Alamat Lengkap", name: "alamat", widget: "text" }
-              - label: "Nomor WhatsApp"
-                name: "whatsapp"
-                widget: "string"
-                hint: "Tanpa tanda + atau 0 di depan, contoh: 6281234567890"
-              - { label: "Email", name: "email", widget: "string" }
-              - { label: "Link Instagram Desa", name: "instagramDesa", widget: "string", required: false }
-              - { label: "Link Facebook Desa", name: "facebookDesa", widget: "string", required: false }
-              - { label: "Link Instagram Tim KKNT", name: "instagramKKNT", widget: "string", required: false }
-              - label: "URL Website Ini (untuk QR Code)"
-                name: "urlWebsiteIni"
-                widget: "string"
-                hint: "Isi setelah website online, contoh: https://desabaron.netlify.app"
+      # ---------------------- 7. KONTAK & LOKASI ----------------------
+      - name: "kontak_lokasi"
+        label: "7. Kontak & Lokasi"
+        file: "website-desa/content/kontak.json"
+        fields:
+          - { label: "Alamat Lengkap", name: "alamat", widget: "text" }
+          - label: "Nomor WhatsApp"
+            name: "whatsapp"
+            widget: "string"
+            hint: "Tanpa tanda + atau 0 di depan, contoh: 6281234567890"
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Link Instagram Desa", name: "instagramDesa", widget: "string", required: false }
+          - { label: "Link Facebook Desa", name: "facebookDesa", widget: "string", required: false }
+          - { label: "Link Instagram Tim KKNT", name: "instagramKKNT", widget: "string", required: false }
+          - label: "URL Website Ini (untuk QR Code)"
+            name: "urlWebsiteIni"
+            widget: "string"
+            hint: "Isi setelah website online, contoh: https://desabaron.netlify.app"

@@ -1,0 +1,12 @@
+{
+  "galeri": [
+    { "src": "assets/images/galeri-1.jpg", "caption": "Suasana belajar bersama di balai desa", "kategori": "Pendidikan" },
+    { "src": "assets/images/galeri-2.jpg", "caption": "Penimbangan balita di posyandu", "kategori": "Kesehatan" },
+    { "src": "assets/images/galeri-3.jpg", "caption": "Pelatihan foto produk UMKM bambu", "kategori": "Ekonomi" },
+    { "src": "assets/images/galeri-4.jpg", "caption": "Kerja bakti bersih sungai", "kategori": "Lingkungan" },
+    { "src": "assets/images/galeri-5.jpg", "caption": "Latihan tari untuk malam budaya", "kategori": "Sosial" },
+    { "src": "assets/images/galeri-6.jpg", "caption": "Panen sayur bersama kelompok tani", "kategori": "Ekonomi" },
+    { "src": "assets/images/galeri-7.jpg", "caption": "Sesi cerita untuk anak-anak", "kategori": "Pendidikan" },
+    { "src": "assets/images/galeri-8.jpg", "caption": "Penanaman pohon di bantaran sungai", "kategori": "Lingkungan" }
+  ]
+}
