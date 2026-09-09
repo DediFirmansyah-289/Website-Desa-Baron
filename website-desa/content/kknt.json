@@ -1,18 +1,23 @@
 {
-  "periodeMulai": "2026-07-01",
-  "periodeSelesai": "2026-08-30",
-  "dpl": "Dr. Farah Nurul Aini, S.P., M.Si.",
+  "periodeMulai": "2026-08-13",
+  "periodeSelesai": "2026-09-25",
+  "dpl": "Dr. Septina Alrianingrum, S.S., M.Pd.",
   "motto": "Berkarya, Berkolaborasi, Berdampak untuk Sukamaju",
   "anggota": [
-    { "nama": "Muhammad Rizky Pratama", "universitas": "Universitas Padjadjaran", "prodi": "Agroteknologi", "divisi": "Ketua Tim", "foto": "assets/images/anggota-1.jpg" },
-    { "nama": "Naila Salsabila", "universitas": "Universitas Padjadjaran", "prodi": "Ilmu Komunikasi", "divisi": "Humas", "foto": "assets/images/anggota-2.jpg" },
-    { "nama": "Bagas Adi Nugroho", "universitas": "Institut Teknologi Bandung", "prodi": "Teknik Informatika", "divisi": "PDD (Publikasi, Dokumentasi & Desain)", "foto": "assets/images/anggota-3.jpg" },
-    { "nama": "Putri Ayu Lestari", "universitas": "Universitas Pendidikan Indonesia", "prodi": "Pendidikan Guru SD", "divisi": "Divisi Pendidikan", "foto": "assets/images/anggota-4.jpg" },
-    { "nama": "Fajar Ramadhan", "universitas": "Universitas Padjadjaran", "prodi": "Ilmu Ekonomi", "divisi": "Divisi Ekonomi & UMKM", "foto": "assets/images/anggota-5.jpg" },
-    { "nama": "Nadia Rahmawati", "universitas": "Universitas Pendidikan Indonesia", "prodi": "Kesehatan Masyarakat", "divisi": "Divisi Kesehatan", "foto": "assets/images/anggota-6.jpg" },
-    { "nama": "Reza Firmansyah", "universitas": "Institut Teknologi Bandung", "prodi": "Teknik Lingkungan", "divisi": "Divisi Lingkungan", "foto": "assets/images/anggota-7.jpg" },
-    { "nama": "Dinda Kusuma Wardani", "universitas": "Universitas Padjadjaran", "prodi": "Administrasi Publik", "divisi": "Sekretaris Tim", "foto": "assets/images/anggota-8.jpg" },
-    { "nama": "Yoga Pramudya", "universitas": "Universitas Padjadjaran", "prodi": "Manajemen", "divisi": "Bendahara Tim", "foto": "assets/images/anggota-9.jpg" },
-    { "nama": "Alya Zahra Putri", "universitas": "Universitas Pendidikan Indonesia", "prodi": "Ilmu Gizi", "divisi": "Divisi Konsumsi", "foto": "assets/images/anggota-10.jpg" }
+    { "nama": "Fatsilah Fadlika Dwiputra", "universitas": "Universitas Negeri Surabaya", "prodi": "Manajemen", "divisi": "Ketua", "foto": "assets/images/anggota-1.jpg" },
+    { "nama": "Dimas Muhammad Jonathan Dirgantara Muktasyim", "universitas": "Universitas Negeri Surabaya", "prodi": "Ilmu Keolahragaaon", "divisi": "Wakil Ketua", "foto": "assets/images/anggota-2.jpg" },
+    { "nama": "Oktavia Rachmah Dhini", "universitas": "Universitas Negeri Surabaya", "prodi": "Ilmu Keolahragaaon", "divisi": "Bendahara", "foto": "assets/images/anggota-3.jpg" },
+    { "nama": "Al-fas Bashar Sidiq", "universitas": "Universitas Negeri Surabaya", "prodi": "Ilmu Keolahragaaon", "divisi": "Sekretaris", "foto": "assets/images/anggota-4.jpg" },
+    { "nama": "Martatya Azzalia Paramitha Achmad", "universitas": "Universitas Negeri Surabaya", "prodi": "Ilmu Keolahragaaon", "divisi": "Divisi Acara", "foto": "assets/images/anggota-5.jpg" },
+    { "nama": "Tantri Nur Hayati", "universitas": "Universitas Negeri Surabaya", "prodi": "Ilmu Keolahragaaon", "divisi": "Divisi Acara", "foto": "assets/images/anggota-6.jpg" },
+    { "nama": "Muhammad Irfan Kurniawan", "universitas": "Universitas Negeri Surabaya", "prodi": "Manajemen", "divisi": "Divisi Humas", "foto": "assets/images/anggota-7.jpg" },
+    { "nama": "Mohammad Rozaky Putra Wiranto", "universitas": "Universitas Negeri Surabaya", "prodi": "Manajemen", "divisi": "Divisi Humas", "foto": "assets/images/anggota-8.jpg" },
+    { "nama": "Naufal Zulfi Marsendy", "universitas": "Universitas Negeri Surabaya", "prodi": "Pendidikan Matematika", "divisi": "Divisi PDD (Publikasi, Desain, dan Dokumentasi)", "foto": "assets/images/anggota-9.jpg" },
+    { "nama": "Dedi Firmansyah", "universitas": "Universitas Negeri Surabaya", "prodi": "Teknik Informatika", "divisi": "Divisi PDD (Publikasi, Desain, dan Dokumentasi)", "foto": "assets/images/anggota-10.jpg" },
+    { "nama": "Achmad Nuril Mubarok", "universitas": "Universitas Negeri Surabaya", "prodi": "Ilmu Keolahragaaon", "divisi": "Divisi Perlengkapan", "foto": "assets/images/anggota-11.jpg" },
+    { "nama": "Mohammad Akbar Karimin Farid", "universitas": "Universitas Negeri Surabaya", "prodi": "Ilmu Keolahragaaon", "divisi": "Divisi Perlengkapan", "foto": "assets/images/anggota-12.jpg" },
+    { "nama": "Sahrul Ridwan Pramana", "universitas": "Universitas Negeri Surabaya", "prodi": "Pendidikan Matematika", "divisi": "Divisi Perlengkapan", "foto": "assets/images/anggota-13.jpg" },
+    { "nama": "Dinda Aprilia Azzahra", "universitas": "Universitas Negeri Surabaya", "prodi": "Pendidikan Guru Sekolah Dasar", "divisi": "Divisi Konsumsi", "foto": "assets/images/anggota-14.jpg" },
+    { "nama": "Alifa Zahra Nurwanna", "universitas": "Universitas Negeri Surabaya", "prodi": "Pendidikan Guru Sekolah Dasar", "divisi": "Divisi Konsumsi", "foto": "assets/images/anggota-15.jpg" }
   ]
 }
