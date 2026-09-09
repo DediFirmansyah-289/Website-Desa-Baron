@@ -4,28 +4,53 @@
   "kabupaten": "Kabupaten Nganjuk",
   "provinsi": "Jawa Timur",
   "tagline": "Ibu kota Kecamatan Baron, hamparan sawah dan cita rasa kuliner khas",
+
   "sejarah": "Baron adalah desa yang menjadi ibu kota Kecamatan Baron, Kabupaten Nganjuk, Jawa Timur. Desa ini dikenal dengan pemandangan hamparan sawah yang indah serta ikon Tugu Jotos di perempatan lampu merah Baron — sebuah tugu unik yang bentuknya jarang ditemui di daerah lain. Nama \"Baron\" dipercaya berasal dari seorang musafir alim bernama Bahron, penyebar ajaran Islam sekaligus ahli pengobatan tradisional yang sangat dihormati warga pada masa lalu. Karena kesulitan lidah warga setempat melafalkan \"Bahron\", sebutan itu lambat laun bergeser dan melekat menjadi \"Baron\" hingga sekarang. Seiring waktu, wilayah ini berkembang menjadi pusat administrasi dan ekonomi di kawasan Kertosono Raya. Secara turun-temurun, wilayah desa mencakup beberapa dusun utama, yaitu Dusun Baron Timur, Wates, Padasan, dan Lobeser.",
-  "visi": "Visi desa belum diisi — silakan tanyakan ke kepala desa dan isi lewat halaman admin.",
+
+  "visi": "Terwujudnya pelayanan publik yang profesional, inovatif, transparan, akuntabel, dan berorientasi pada kepuasan masyarakat dalam mendukung tata kelola pemerintahan yang baik.",
+
   "misi": [
-    "Misi desa belum diisi — tambahkan poin lewat halaman admin."
+    {
+      "judul": "Peningkatan Infrastruktur dan Tata Ruang",
+      "deskripsi": "Melanjutkan pemerataan pembangunan fisik dan aksesibilitas desa (jalan, irigasi, dan fasilitas umum) berkolaborasi dengan daerah."
+    },
+    {
+      "judul": "Keterbukaan Tata Kelola Pemerintahan",
+      "deskripsi": "Menyelenggarakan administrasi desa secara transparan, akuntabel, serta tertib hukum sesuai dengan pelaporan realisasi anggaran tahunan desa."
+    },
+    {
+      "judul": "Pemberdayaan dan Sektor Ekonomi Lokal",
+      "deskripsi": "Mendorong optimalisasi sektor pertanian (seperti potensi budidaya buah naga/padi organik di Dusun Wates) dan penguatan ekonomi kreatif masyarakat."
+    },
+    {
+      "judul": "Pembinaan SDM dan Kesejahteraan Sosial",
+      "deskripsi": "Menguatkan peran kader-kader institusi desa untuk pelayanan kesehatan keluarga, pemuda, dan pemeliharaan ketertiban umum."
+    }
   ],
+
   "luasWilayah": "114 Ha",
+
   "jumlahPenduduk": {
-    "total": 4961,
-    "lakiLaki": 2443,
-    "perempuan": 2518
+    "total": 6.406,
+    "lakiLaki": 3.194,
+    "perempuan": 3.212
   },
-  "jumlahRT": 0,
-  "jumlahRW": 0,
+
+  "jumlahRT": 5,
+  "jumlahRW": 22,
+
   "fotoDesa": "assets/images/foto-desa.png",
   "fotoKantorDesa": "assets/images/kantor-desa.jpg",
+
   "mapsEmbedUrl": "https://www.google.com/maps?q=-7.6035264,112.0526525&output=embed",
+
   "batasWilayah": {
     "utara": "Kecamatan Lengkong",
     "selatan": "Kecamatan Ngronggot",
     "timur": "Kecamatan Kertosono / Patianrowo",
     "barat": "Kecamatan Tanjunganom"
   },
+
   "potensi": [
     {
       "nama": "Hamparan Sawah",
