@@ -1,0 +1,10 @@
+[33mcommit de55d14b3be9e2c8f3a97fcc6b09d82aa71ee7b9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dedi Firmansyah <dedifirmansyah34770@gmail.com>
+Date:   Fri Sep 11 09:06:42 2026 +0700
+
+    Lengkapi pemisahan file: config.yml, main.js, kknt, kegiatan, galeri
+
+ website-desa/content/galeri.json   |  5 [32m++[m[31m---[m
+ website-desa/content/kegiatan.json | 11 [32m+++++++++++[m
+ website-desa/content/kknt.json     |  2 [32m+[m[31m-[m
+ 3 files changed, 14 insertions(+), 4 deletions(-)
