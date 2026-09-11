@@ -98,7 +98,7 @@ collections:
             fields:
               - { label: "Nama Lengkap", name: "nama", widget: "string" }
               - { label: "Jabatan", name: "jabatan", widget: "string" }
-              - { label: "Nomor WhatsApp/Kontak", name: "kontak", widget: "string" }
+              - { label: "Nomor WhatsApp/Kontak", name: "kontak", widget: "string", required: false }
               - { label: "Foto", name: "foto", widget: "image", required: false }
 
       # ---------------------- 3. TIM KKNT ----------------------
@@ -108,8 +108,8 @@ collections:
         fields:
           - { label: "Tanggal Mulai", name: "periodeMulai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
           - { label: "Tanggal Selesai", name: "periodeSelesai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
-          - { label: "Dosen Pembimbing Lapangan (DPL)", name: "dpl", widget: "string" }
-          - { label: "Motto Tim", name: "motto", widget: "string" }
+          - { label: "Dosen Pembimbing Lapangan (DPL)", name: "dpl", widget: "string", required: false }
+          - { label: "Motto Tim", name: "motto", widget: "string", required: false }
           - label: "Anggota Tim"
             name: "anggota"
             widget: "list"
@@ -204,10 +204,10 @@ collections:
           - label: "Nomor WhatsApp"
             name: "whatsapp"
             widget: "string"
+            required: false
             hint: "Tanpa tanda + atau 0 di depan, contoh: 6281234567890"
-          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Email", name: "email", widget: "string", required: false }
           - { label: "Link Instagram Desa", name: "instagramDesa", widget: "string", required: false }
-          - { label: "Link Facebook Desa", name: "facebookDesa", widget: "string", required: false }
           - { label: "Link Instagram Tim KKNT", name: "instagramKKNT", widget: "string", required: false }
           - label: "URL Website Ini (untuk QR Code)"
             name: "urlWebsiteIni"
