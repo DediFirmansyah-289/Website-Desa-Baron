@@ -15,7 +15,7 @@ backend:
     openAuthoring: "Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge"
 
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-site_url: https://desabaron.netlify.app
+site_url: https://website-desa-baron.pages.dev
 
 # Tempat menyimpan foto yang diunggah lewat form admin
 media_folder: "website-desa/assets/images"
