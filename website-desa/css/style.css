@@ -213,6 +213,15 @@ section { padding: 88px 0; position: relative; }
 .profil-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; margin-bottom: 60px; }
 .profil-sejarah p { color: var(--coklat-muda); margin-bottom: 14px; white-space: pre-line; }
 .visi-misi { background: var(--krem-anyaman); border-radius: var(--radius); padding: 28px; }
+
+.alasan-website {
+  border-left: 3px solid var(--tanah-liat);
+  background: var(--putih-kabut);
+  padding: 20px 24px;
+  margin-bottom: 44px;
+}
+.alasan-website h4 { color: var(--hijau-tua); font-size: 1.05rem; margin-bottom: 8px; }
+.alasan-website p { color: var(--coklat-muda); font-size: 0.96rem; }
 .visi-misi h4 { color: var(--hijau-tua); font-size: 1rem; margin-bottom: 8px; }
 .visi-misi p { color: var(--coklat-muda); margin-bottom: 18px; }
 .visi-misi ul { list-style: none; }

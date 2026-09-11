@@ -93,7 +93,10 @@ function renderProfil() {
   document.getElementById("stat-penduduk").textContent = d.jumlahPenduduk.total.toLocaleString("id-ID");
   document.getElementById("stat-rt").textContent = d.jumlahRT;
   document.getElementById("stat-rw").textContent = d.jumlahRW;
+  document.getElementById("stat-sekolah").textContent = d.jumlahSekolah;
+  document.getElementById("stat-umkm-gmaps").textContent = d.jumlahUMKMGoogleMaps;
 
+  document.getElementById("teks-alasan-website").textContent = d.alasanWebsite || "";
   document.getElementById("teks-sejarah").textContent = d.sejarah.trim();
   document.getElementById("teks-visi").textContent = d.visi;
   const listMisi = document.getElementById("list-misi");
@@ -120,6 +123,14 @@ function renderProfil() {
     item.className = "potensi-item";
     item.innerHTML = `<div class="ikon">${ikonSvg(p.ikon)}</div><h4>${p.nama}</h4><p>${p.deskripsi}</p>`;
     potensiWrap.appendChild(item);
+  });
+
+  const prestasiWrap = document.getElementById("prestasi-grid");
+  (d.prestasi || []).forEach((p) => {
+    const item = document.createElement("div");
+    item.className = "potensi-item";
+    item.innerHTML = `<div class="ikon">${ikonSvg("landmark")}</div><h4>${p.nama}</h4><p>${p.deskripsi}</p>`;
+    prestasiWrap.appendChild(item);
   });
 }
 

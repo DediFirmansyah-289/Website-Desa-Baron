@@ -45,6 +45,10 @@ collections:
           - { label: "Provinsi", name: "provinsi", widget: "string" }
           - { label: "Tagline / Slogan", name: "tagline", widget: "string" }
           - { label: "Sejarah Singkat", name: "sejarah", widget: "text" }
+          - label: "Alasan Website Ini Dibuat"
+            name: "alasanWebsite"
+            widget: "text"
+            hint: "Jelaskan kenapa website desa ini dibutuhkan — akan tampil sebagai bagian pengantar di halaman Profil Desa."
           - { label: "Visi", name: "visi", widget: "text" }
           - label: "Misi (satu baris = satu poin)"
             name: "misi"
@@ -60,6 +64,11 @@ collections:
               - { label: "Perempuan", name: "perempuan", widget: "number", value_type: "int" }
           - { label: "Jumlah RT", name: "jumlahRT", widget: "number", value_type: "int" }
           - { label: "Jumlah RW", name: "jumlahRW", widget: "number", value_type: "int" }
+          - { label: "Jumlah Sekolah", name: "jumlahSekolah", widget: "number", value_type: "int" }
+          - label: "Jumlah UMKM yang Sudah/Akan Dibuatkan Google Maps"
+            name: "jumlahUMKMGoogleMaps"
+            widget: "number"
+            value_type: "int"
           - { label: "Foto Desa", name: "fotoDesa", widget: "image", required: false }
           - { label: "Foto Kantor Desa", name: "fotoKantorDesa", widget: "image", required: false }
           - label: "Link Embed Google Maps"
@@ -84,6 +93,13 @@ collections:
                 name: "ikon"
                 widget: "select"
                 options: ["leaf", "scissors", "mountain", "cow", "landmark", "food"]
+              - { label: "Deskripsi", name: "deskripsi", widget: "text" }
+          - label: "Prestasi / Keunggulan Khusus Desa"
+            name: "prestasi"
+            widget: "list"
+            summary: "{{nama}}"
+            fields:
+              - { label: "Nama Prestasi/Keunggulan", name: "nama", widget: "string" }
               - { label: "Deskripsi", name: "deskripsi", widget: "text" }
 
       # ---------------------- 2. PERANGKAT DESA ----------------------

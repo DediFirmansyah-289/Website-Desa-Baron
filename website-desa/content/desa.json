@@ -5,6 +5,7 @@
   "provinsi": "Jawa Timur",
   "tagline": "Ibu kota Kecamatan Baron, hamparan sawah dan cita rasa kuliner khas",
   "sejarah": "Baron adalah desa yang menjadi ibu kota Kecamatan Baron, Kabupaten Nganjuk, Jawa Timur. Desa ini dikenal dengan pemandangan hamparan sawah yang indah serta ikon Tugu Jotos di perempatan lampu merah Baron — sebuah tugu unik yang bentuknya jarang ditemui di daerah lain. Nama \"Baron\" dipercaya berasal dari seorang musafir alim bernama Bahron, penyebar ajaran Islam sekaligus ahli pengobatan tradisional yang sangat dihormati warga pada masa lalu. Karena kesulitan lidah warga setempat melafalkan \"Bahron\", sebutan itu lambat laun bergeser dan melekat menjadi \"Baron\" hingga sekarang. Seiring waktu, wilayah ini berkembang menjadi pusat administrasi dan ekonomi di kawasan Kertosono Raya. Secara turun-temurun, wilayah desa mencakup beberapa dusun utama, yaitu Dusun Baron Timur, Wates, Padasan, dan Lobeser.",
+  "alasanWebsite": "Website ini dibuat sebagai wujud transparansi dan keterbukaan informasi desa kepada masyarakat, mempermudah warga dan pihak luar mengakses profil serta perkembangan Desa Baron, sekaligus menjadi media promosi potensi desa (wisata, kuliner, dan UMKM) ke khalayak yang lebih luas. Website ini juga menjadi bagian dari dokumentasi program kerja Tim KKNT selama mengabdi di Desa Baron.",
   "visi": "Terwujudnya pelayanan publik yang profesional, inovatif, transparan, akuntabel, dan berorientasi pada kepuasan masyarakat dalam mendukung tata kelola pemerintahan yang baik.",
   "misi": [
     "Peningkatan Infrastruktur dan Tata Ruang: Melanjutkan pemerataan pembangunan fisik dan aksesibilitas desa (jalan, irigasi, dan fasilitas umum) berkolaborasi dengan daerah.",
@@ -20,6 +21,8 @@
   },
   "jumlahRT": 22,
   "jumlahRW": 5,
+  "jumlahSekolah": 0,
+  "jumlahUMKMGoogleMaps": 0,
   "fotoDesa": "assets/images/foto-desa.jpg",
   "fotoKantorDesa": "assets/images/kantor-desa.jpg",
   "mapsEmbedUrl": "https://www.google.com/maps?q=-7.6035264,112.0526525&output=embed",
@@ -30,20 +33,11 @@
     "barat": "Kecamatan Tanjunganom"
   },
   "potensi": [
-    {
-      "nama": "Hamparan Sawah",
-      "ikon": "leaf",
-      "deskripsi": "Baron memiliki pemandangan sawah yang cukup indah, membentang di sekitar wilayah desa."
-    },
-    {
-      "nama": "Tugu Jotos",
-      "ikon": "landmark",
-      "deskripsi": "Ikon khas Desa Baron di perempatan lampu merah Baron, bentuknya unik dan jarang ditemui di daerah lain."
-    },
-    {
-      "nama": "Kuliner Khas Baron",
-      "ikon": "food",
-      "deskripsi": "Rumah Makan Sekar Melati dan Depot Lezat menjadi tempat makan favorit yang enak dan unik di Baron."
-    }
+    { "nama": "Hamparan Sawah", "ikon": "leaf", "deskripsi": "Baron memiliki pemandangan sawah yang cukup indah, membentang di sekitar wilayah desa." },
+    { "nama": "Tugu Jotos", "ikon": "landmark", "deskripsi": "Ikon khas Desa Baron di perempatan lampu merah Baron, bentuknya unik dan jarang ditemui di daerah lain." },
+    { "nama": "Kuliner Khas Baron", "ikon": "food", "deskripsi": "Rumah Makan Sekar Melati dan Depot Lezat menjadi tempat makan favorit yang enak dan unik di Baron." }
+  ],
+  "prestasi": [
+    { "nama": "Prestasi/keunggulan belum diisi", "deskripsi": "Tambahkan prestasi atau keunggulan khusus Desa Baron lewat panel admin." }
   ]
 }
