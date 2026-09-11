@@ -1,10 +1,12 @@
-[33mcommit de55d14b3be9e2c8f3a97fcc6b09d82aa71ee7b9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+[33mcommit 5eb72d429773caa27489b978a08929bb1df2fba3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
 Author: Dedi Firmansyah <dedifirmansyah34770@gmail.com>
-Date:   Fri Sep 11 09:06:42 2026 +0700
+Date:   Fri Sep 11 10:26:31 2026 +0700
 
-    Lengkapi pemisahan file: config.yml, main.js, kknt, kegiatan, galeri
+    Tambah alasan website, prestasi, jumlah sekolah, dan UMKM Google Maps
 
- website-desa/content/galeri.json   |  5 [32m++[m[31m---[m
- website-desa/content/kegiatan.json | 11 [32m+++++++++++[m
- website-desa/content/kknt.json     |  2 [32m+[m[31m-[m
- 3 files changed, 14 insertions(+), 4 deletions(-)
+ website-desa/admin/config.yml  |  16 [32m+++[m
+ website-desa/admin/index.html  | 233 [32m+++++++++++++++++++++++++++++++++++++++[m[31m--[m
+ website-desa/content/desa.json |  24 [32m++[m[31m---[m
+ website-desa/css/style.css     |   9 [32m++[m
+ website-desa/js/main.js        |  11 [32m++[m
+ 5 files changed, 271 insertions(+), 22 deletions(-)
