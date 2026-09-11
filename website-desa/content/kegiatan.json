@@ -32,6 +32,17 @@
       "foto": ["assets/images/kegiatan-umkm-1.jpg", "assets/images/kegiatan-umkm-2.jpg", "assets/images/kegiatan-umkm-3.jpg"],
       "testimoni": { "nama": "Pak Ujang, perajin bambu", "isi": "Sekarang saya sudah bisa upload produk sendiri di marketplace." },
       "videoYoutubeId": ""
+    },
+    {
+      "judul": "Posyandu Lansia Bulan September",
+      "tanggal": "2026-07-10",
+      "waktu": "08:00 WIB",
+      "lokasi": "Posyandu Melati, RW 03",
+      "kategori": "Kesehatan",
+      "deskripsi": "Tim mendampingi kader posyandu dalam penimbangan dan\n        pengukuran tinggi badan 65 balita, dilanjutkan penyuluhan gizi\n        seimbang untuk ibu hamil dan menyusui.\n\n        Ditemukan 3 balita dengan status gizi kurang yang langsung\n        dirujuk untuk pendampingan lanjutan oleh bidan desa.",
+      "foto": ["assets/images/kegiatan-posyandu-1.jpg", "assets/images/kegiatan-posyandu-2.jpg"],
+      "testimoni": { "nama": "Kader Posyandu Melati", "isi": "Terima kasih sudah membantu kelancaran posyandu bulan ini." },
+      "videoYoutubeId": ""
     }
   ]
 }
