@@ -1,9 +1,49 @@
 {
   "programKerja": [
-    { "nama": "Sukamaju Mengajar", "deskripsi": "Bimbingan belajar sore untuk siswa SD dan SMP di balai desa, fokus pada literasi dan numerasi dasar.", "penanggungJawab": "Putri Ayu Lestari", "sasaran": "Siswa SD & SMP", "tanggal": "2026-07-05", "kategori": "Pendidikan", "thumbnail": "assets/images/proker-mengajar.jpg" },
-    { "nama": "Posyandu Sehat Balita", "deskripsi": "Pendampingan kegiatan posyandu bulanan, penyuluhan gizi, dan pemeriksaan kesehatan balita bersama kader.", "penanggungJawab": "Nadia Rahmawati", "sasaran": "Balita & Ibu Hamil", "tanggal": "2026-07-10", "kategori": "Kesehatan", "thumbnail": "assets/images/proker-posyandu.jpg" },
-    { "nama": "Pelatihan Digital Marketing UMKM", "deskripsi": "Pelatihan foto produk dan pemasaran online bagi pelaku UMKM kerajinan bambu dan olahan sayur desa.", "penanggungJawab": "Fajar Ramadhan", "sasaran": "Pelaku UMKM", "tanggal": "2026-07-18", "kategori": "Ekonomi", "thumbnail": "assets/images/proker-umkm.jpg" },
-    { "nama": "Sukamaju Bersih & Hijau", "deskripsi": "Kerja bakti pembersihan sungai, penanaman pohon, dan edukasi pemilahan sampah rumah tangga.", "penanggungJawab": "Reza Firmansyah", "sasaran": "Seluruh Warga", "tanggal": "2026-07-25", "kategori": "Lingkungan", "thumbnail": "assets/images/proker-bersih.jpg" },
-    { "nama": "Malam Kreasi Budaya Desa", "deskripsi": "Pentas seni dan lomba antar-RW untuk mempererat kebersamaan warga sekaligus melestarikan budaya lokal.", "penanggungJawab": "Naila Salsabila", "sasaran": "Warga Semua Usia", "tanggal": "2026-08-15", "kategori": "Sosial", "thumbnail": "assets/images/proker-budaya.jpg" }
+    {
+      "nama": "Baron Mengajar",
+      "deskripsi": "Bimbingan belajar sore untuk siswa SD dan SMP di balai desa, fokus pada literasi dan numerasi dasar.",
+      "penanggungJawab": "Putri Ayu Lestari",
+      "sasaran": "Siswa SD & SMP",
+      "tanggal": "2026-07-05",
+      "kategori": "Pendidikan",
+      "thumbnail": "assets/images/proker-mengajar.jpg"
+    },
+    {
+      "nama": "Posyandu Sehat Balita",
+      "deskripsi": "Pendampingan kegiatan posyandu bulanan, penyuluhan gizi, dan pemeriksaan kesehatan balita bersama kader.",
+      "penanggungJawab": "Nadia Rahmawati",
+      "sasaran": "Balita & Ibu Hamil",
+      "tanggal": "2026-07-10",
+      "kategori": "Kesehatan",
+      "thumbnail": "assets/images/proker-posyandu.jpg"
+    },
+    {
+      "nama": "Pelatihan Digital Marketing UMKM",
+      "deskripsi": "Pelatihan foto produk dan pemasaran online bagi pelaku UMKM kerajinan bambu dan olahan sayur desa.",
+      "penanggungJawab": "Fajar Ramadhan",
+      "sasaran": "Pelaku UMKM",
+      "tanggal": "2026-07-18",
+      "kategori": "Ekonomi",
+      "thumbnail": "assets/images/proker-umkm.jpg"
+    },
+    {
+      "nama": "Sukamaju Bersih & Hijau",
+      "deskripsi": "Kerja bakti pembersihan sungai, penanaman pohon, dan edukasi pemilahan sampah rumah tangga.",
+      "penanggungJawab": "Reza Firmansyah",
+      "sasaran": "Seluruh Warga",
+      "tanggal": "2026-07-25",
+      "kategori": "Lingkungan",
+      "thumbnail": "assets/images/proker-bersih.jpg"
+    },
+    {
+      "nama": "Malam Kreasi Budaya Desa",
+      "deskripsi": "Pentas seni dan lomba antar-RW untuk mempererat kebersamaan warga sekaligus melestarikan budaya lokal.",
+      "penanggungJawab": "Naila Salsabila",
+      "sasaran": "Warga Semua Usia",
+      "tanggal": "2026-08-15",
+      "kategori": "Sosial",
+      "thumbnail": "assets/images/proker-budaya.jpg"
+    }
   ]
 }
