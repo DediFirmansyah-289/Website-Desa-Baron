@@ -179,6 +179,7 @@ section { padding: 88px 0; position: relative; }
 .hero-stats { display: flex; gap: 28px; flex-wrap: wrap; }
 .hero-stat .angka { font-family: var(--font-display); font-size: 2rem; color: var(--emas-panen); }
 .hero-stat .label { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(250,248,242,0.65); }
+.hero-stat .rincian { font-family: var(--font-mono); font-size: 0.68rem; color: rgba(250,248,242,0.5); margin-top: 2px; }
 .hero-foto {
   aspect-ratio: 4/3; border-radius: var(--radius); overflow: hidden;
   border: 1px solid rgba(250,248,242,0.2);
@@ -213,15 +214,6 @@ section { padding: 88px 0; position: relative; }
 .profil-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; margin-bottom: 60px; }
 .profil-sejarah p { color: var(--coklat-muda); margin-bottom: 14px; white-space: pre-line; }
 .visi-misi { background: var(--krem-anyaman); border-radius: var(--radius); padding: 28px; }
-
-.alasan-website {
-  border-left: 3px solid var(--tanah-liat);
-  background: var(--putih-kabut);
-  padding: 20px 24px;
-  margin-bottom: 44px;
-}
-.alasan-website h4 { color: var(--hijau-tua); font-size: 1.05rem; margin-bottom: 8px; }
-.alasan-website p { color: var(--coklat-muda); font-size: 0.96rem; }
 .visi-misi h4 { color: var(--hijau-tua); font-size: 1rem; margin-bottom: 8px; }
 .visi-misi p { color: var(--coklat-muda); margin-bottom: 18px; }
 .visi-misi ul { list-style: none; }
@@ -366,6 +358,27 @@ section { padding: 88px 0; position: relative; }
 .lightbox img { max-width: 90vw; max-height: 78vh; object-fit: contain; border-radius: 2px; }
 .lightbox-caption { color: var(--putih-kabut); text-align: center; margin-top: 14px; font-family: var(--font-mono); font-size: 0.85rem; }
 .lightbox-tutup { position: absolute; top: 24px; right: 32px; color: #fff; font-size: 2rem; cursor: pointer; background: none; border: none; line-height: 1; }
+
+/* ==========================================================================
+   TEMPAT PENTING
+   ========================================================================== */
+.tempat-penting-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.kartu-tempat {
+  display: flex; align-items: center; gap: 14px;
+  background: var(--putih-kabut); border: 1px solid var(--garis);
+  padding: 16px 18px; border-radius: 2px; transition: all 0.2s;
+}
+.kartu-tempat:hover { border-color: var(--hijau-tua); transform: translateY(-2px); }
+.ikon-tempat { font-size: 1.6rem; flex-shrink: 0; }
+.info-tempat { flex: 1; min-width: 0; }
+.nama-tempat { font-family: var(--font-display); font-size: 1rem; color: var(--hijau-tua); margin-bottom: 2px; }
+.kategori-tempat { font-family: var(--font-mono); font-size: 0.68rem; text-transform: uppercase; color: var(--tanah-liat); }
+.alamat-tempat { font-size: 0.8rem; color: var(--coklat-muda); margin-top: 4px; }
+.panah-tempat { font-size: 1.1rem; color: var(--coklat-muda); flex-shrink: 0; }
+
+@media (max-width: 640px) {
+  .tempat-penting-grid { grid-template-columns: 1fr; }
+}
 
 /* ==========================================================================
    KONTAK & LOKASI

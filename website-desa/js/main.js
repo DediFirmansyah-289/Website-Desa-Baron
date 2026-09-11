@@ -22,7 +22,7 @@ async function ambilJSON(nama) {
 }
 
 async function muatData() {
-  const [desa, perangkatFile, kknt, prokerFile, kegiatanFile, galeriFile, kontak] =
+  const [desa, perangkatFile, kknt, prokerFile, kegiatanFile, galeriFile, kontak, tempatPentingFile] =
     await Promise.all([
       ambilJSON("desa"),
       ambilJSON("perangkat"),
@@ -31,6 +31,7 @@ async function muatData() {
       ambilJSON("kegiatan"),
       ambilJSON("galeri"),
       ambilJSON("kontak"),
+      ambilJSON("tempat-penting"),
     ]);
 
   return {
@@ -41,6 +42,7 @@ async function muatData() {
     kegiatan: kegiatanFile.kegiatan,
     galeri: galeriFile.galeri,
     kontak,
+    tempatPenting: tempatPentingFile.tempatPenting,
   };
 }
 
@@ -91,6 +93,13 @@ function renderProfil() {
 
   document.getElementById("stat-luas").textContent = d.luasWilayah;
   document.getElementById("stat-penduduk").textContent = d.jumlahPenduduk.total.toLocaleString("id-ID");
+  const rincianEl = document.getElementById("stat-penduduk-rincian");
+  const { lakiLaki, perempuan } = d.jumlahPenduduk;
+  if (lakiLaki > 0 && perempuan > 0) {
+    rincianEl.textContent = `${lakiLaki.toLocaleString("id-ID")} L / ${perempuan.toLocaleString("id-ID")} P`;
+  } else {
+    rincianEl.textContent = "(rincian L/P sedang diverifikasi)";
+  }
   document.getElementById("stat-rt").textContent = d.jumlahRT;
   document.getElementById("stat-rw").textContent = d.jumlahRW;
   document.getElementById("stat-sekolah").textContent = d.jumlahSekolah;
@@ -329,6 +338,34 @@ function tutupLightbox() {
   document.getElementById("lightbox").classList.remove("tampil");
 }
 
+/* ------------------------ 8. TEMPAT PENTING ------------------------ */
+const IKON_KATEGORI_TEMPAT = {
+  Pemerintahan: "🏛️",
+  Kesehatan: "🏥",
+  Pendidikan: "🏫",
+  Umum: "📍",
+};
+
+function renderTempatPenting() {
+  const wrap = document.getElementById("tempat-penting-grid");
+  (DATA.tempatPenting || []).forEach((t) => {
+    const kartu = document.createElement("a");
+    kartu.className = "kartu-tempat";
+    kartu.href = t.mapsUrl;
+    kartu.target = "_blank";
+    kartu.rel = "noopener";
+    kartu.innerHTML = `
+      <div class="ikon-tempat">${IKON_KATEGORI_TEMPAT[t.kategori] || "📍"}</div>
+      <div class="info-tempat">
+        <div class="nama-tempat">${t.nama}</div>
+        <div class="kategori-tempat">${t.kategori}</div>
+        ${t.alamat ? `<div class="alamat-tempat">${t.alamat}</div>` : ""}
+      </div>
+      <div class="panah-tempat">↗</div>`;
+    wrap.appendChild(kartu);
+  });
+}
+
 /* -------------------------- 7. KONTAK & LOKASI -------------------------- */
 function renderKontak() {
   const k = DATA.kontak;
@@ -407,6 +444,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   renderKegiatan();
   renderGaleri();
   renderKontak();
+  renderTempatPenting();
   renderFooter();
   initNav();
   initLightbox();

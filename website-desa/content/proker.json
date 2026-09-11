@@ -1,49 +1,9 @@
 {
   "programKerja": [
-    {
-      "nama": "Proker 1",
-      "deskripsi": "Deskripsi/Penjelasan.",
-      "penanggungJawab": "-",
-      "sasaran": "-",
-      "tanggal": "2026-09-11",
-      "kategori": "Pendidikan",
-      "thumbnail": "assets/images/proker-mengajar.jpg"
-    },
-    {
-      "nama": "Proker 2",
-      "deskripsi": "Deskripsi/Penjelasan.",
-      "penanggungJawab": "-",
-      "sasaran": "-",
-      "tanggal": "2026-09-11",
-      "kategori": "Kesehatan",
-      "thumbnail": "assets/images/proker-posyandu.jpg"
-    },
-    {
-      "nama": "Proker 3",
-      "deskripsi": "Deskripsi/Penjelasan.",
-      "penanggungJawab": "-",
-      "sasaran": "-",
-      "tanggal": "2026-09-11",
-      "kategori": "Ekonomi",
-      "thumbnail": "assets/images/proker-umkm.jpg"
-    },
-    {
-      "nama": "Proker 4",
-      "deskripsi": "Deskripsi/Penjelasan.",
-      "penanggungJawab": "-",
-      "sasaran": "-",
-      "tanggal": "2026-09-11",
-      "kategori": "Lingkungan",
-      "thumbnail": "assets/images/proker-bersih.jpg"
-    },
-    {
-      "nama": "Proker 5",
-      "deskripsi": "Deskripsi/Penjelasan.",
-      "penanggungJawab": "-",
-      "sasaran": "-",
-      "tanggal": "2026-09-11",
-      "kategori": "Sosial",
-      "thumbnail": "assets/images/proker-budaya.jpg"
-    }
+    { "nama": "Sosialisasi AntiBullying", "deskripsi": "-", "penanggungJawab": "-", "sasaran": "-", "tanggal": "2026-08-13", "kategori": "Pendidikan", "thumbnail": "assets/images/proker-mengajar.jpg" },
+    { "nama": "Sosiallisasi Senam Wanita & Lansia", "deskripsi": "-", "penanggungJawab": "-", "sasaran": "-", "tanggal": "2026-08-13", "kategori": "Kesehatan", "thumbnail": "assets/images/proker-posyandu.jpg" },
+    { "nama": "Pembuatan tanda di google maps", "deskripsi": "-", "penanggungJawab": "-", "sasaran": "-", "tanggal": "2026-08-13", "kategori": "Ekonomi", "thumbnail": "assets/images/proker-umkm.jpg" },
+    { "nama": "Website informasi desa", "deskripsi": "-", "penanggungJawab": "", "sasaran": "-", "tanggal": "2026-08-13", "kategori": "Lingkungan", "thumbnail": "assets/images/proker-bersih.jpg" },
+    { "nama": "Mengajar", "deskripsi": "-", "penanggungJawab": "-", "sasaran": "-", "tanggal": "2026-08-13", "kategori": "Sosial", "thumbnail": "assets/images/proker-budaya.jpg" }
   ]
 }

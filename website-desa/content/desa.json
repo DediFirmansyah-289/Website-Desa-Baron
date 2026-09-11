@@ -1,57 +1,45 @@
 {
-  "jumlahPenduduk": {
-    "total": 4676,
-    "lakiLaki": 2364,
-    "perempuan": 2295
-  },
+  "nama": "Baron",
+  "kecamatan": "Kecamatan Baron",
   "kabupaten": "Kabupaten Nganjuk",
   "provinsi": "Jawa Timur",
-  "nama": "Baron",
-  "visi": "Terwujudnya pelayanan publik yang profesional, inovatif, transparan, akuntabel, dan berorientasi pada kepuasan masyarakat dalam mendukung tata kelola pemerintahan yang baik.",
-  "jumlahSekolah": 0,
-  "mapsEmbedUrl": "https://www.google.com/maps?q=-7.6069991,112.0517999&output=embed",
   "tagline": "Ibu kota Kecamatan Baron, hamparan sawah dan cita rasa kuliner khas",
   "sejarah": "Baron adalah desa yang menjadi ibu kota Kecamatan Baron, Kabupaten Nganjuk, Jawa Timur. Desa ini dikenal dengan pemandangan hamparan sawah yang indah serta ikon Tugu Jotos di perempatan lampu merah Baron — sebuah tugu unik yang bentuknya jarang ditemui di daerah lain. Nama \"Baron\" dipercaya berasal dari seorang musafir alim bernama Bahron, penyebar ajaran Islam sekaligus ahli pengobatan tradisional yang sangat dihormati warga pada masa lalu. Karena kesulitan lidah warga setempat melafalkan \"Bahron\", sebutan itu lambat laun bergeser dan melekat menjadi \"Baron\" hingga sekarang. Seiring waktu, wilayah ini berkembang menjadi pusat administrasi dan ekonomi di kawasan Kertosono Raya. Secara turun-temurun, wilayah desa mencakup beberapa dusun utama, yaitu Dusun Baron Timur, Wates, Padasan, dan Lobeser.",
   "alasanWebsite": "Website ini dibuat sebagai wujud transparansi dan keterbukaan informasi desa kepada masyarakat, mempermudah warga dan pihak luar mengakses profil serta perkembangan Desa Baron, sekaligus menjadi media promosi potensi desa (wisata, kuliner, dan UMKM) ke khalayak yang lebih luas. Website ini juga menjadi bagian dari dokumentasi program kerja Tim KKNT selama mengabdi di Desa Baron.",
-  "batasWilayah": {
-    "utara": "Kecamatan Lengkong",
-    "selatan": "Kecamatan Ngronggot",
-    "timur": "Kecamatan Kertosono / Patianrowo",
-    "barat": "Kecamatan Tanjunganom"
-  },
+  "visi": "Terwujudnya pelayanan publik yang profesional, inovatif, transparan, akuntabel, dan berorientasi pada kepuasan masyarakat dalam mendukung tata kelola pemerintahan yang baik.",
   "misi": [
     "Peningkatan Infrastruktur dan Tata Ruang: Melanjutkan pemerataan pembangunan fisik dan aksesibilitas desa (jalan, irigasi, dan fasilitas umum) berkolaborasi dengan daerah.",
     "Keterbukaan Tata Kelola Pemerintahan: Menyelenggarakan administrasi desa secara transparan, akuntabel, serta tertib hukum sesuai dengan pelaporan realisasi anggaran tahunan desa.",
     "Pemberdayaan dan Sektor Ekonomi Lokal: Mendorong optimalisasi sektor pertanian (seperti potensi budidaya buah naga/padi organik di Dusun Wates) dan penguatan ekonomi kreatif masyarakat.",
     "Pembinaan SDM dan Kesejahteraan Sosial: Menguatkan peran kader-kader institusi desa untuk pelayanan kesehatan keluarga, pemuda, dan pemeliharaan ketertiban umum."
   ],
-  "fotoKantorDesa": "website-desa/assets/images/foto-desa.png",
-  "fotoDesa": "website-desa/assets/images/foto-desa.png",
-  "prestasi": [
-    {
-      "nama": "Pengembangan Tata Kelola Data Masyarakat",
-      "deskripsi": "Desa Baron terlibat dalam uji petik Pemutakhiran Data Pemilih Berkelanjutan (PDPB) 2026 oleh Bawaslu Kabupaten Nganjuk untuk membantu memastikan validitas data pemilih."
-    },
-    {
-      "nama": "Kampung KB Berkelanjutan",
-      "deskripsi": "Desa Baron tercatat sebagai Kampung KB dengan klasifikasi Berkelanjutan dan pencanangan pada 2 Juni 2026"
-    }
-  ],
+  "luasWilayah": "114 Ha",
+  "jumlahPenduduk": {
+    "total": 4676,
+    "lakiLaki": 0,
+    "perempuan": 0
+  },
   "jumlahRT": 22,
-  "potensi": [
-    {
-      "nama": "Hamparan Sawah",
-      "ikon": "leaf",
-      "deskripsi": "Baron memiliki pemandangan sawah yang cukup indah, membentang di sekitar wilayah desa."
-    },
-    {
-      "nama": "Kuliner Khas Baron",
-      "ikon": "food",
-      "deskripsi": "Rumah Makan Sekar Melati dan Depot Lezat menjadi tempat makan favorit yang enak dan unik di Baron."
-    }
-  ],
-  "kecamatan": "Kecamatan Baron",
   "jumlahRW": 5,
+  "jumlahSekolah": 0,
   "jumlahUMKMGoogleMaps": 0,
-  "luasWilayah": "114 Ha"
+  "fotoDesa": "assets/images/foto-desa.png",
+  "fotoKantorDesa": "assets/images/foto-desa.png",
+  "mapsEmbedUrl": "https://www.google.com/maps?q=-7.6069991,112.0517999&output=embed",
+  "batasWilayah": {
+    "utara": "Kecamatan Lengkong",
+    "selatan": "Kecamatan Ngronggot",
+    "timur": "Kecamatan Kertosono / Patianrowo",
+    "barat": "Kecamatan Tanjunganom"
+  },
+  "potensi": [
+    { "nama": "Hamparan Sawah", "ikon": "leaf", "deskripsi": "Baron memiliki pemandangan sawah yang cukup indah, membentang di sekitar wilayah desa." },
+    { "nama": "Kuliner Khas Baron", "ikon": "food", "deskripsi": "Rumah Makan Sekar Melati dan Depot Lezat menjadi tempat makan favorit yang enak dan unik di Baron." }
+  ],
+  "prestasi": [
+    { "nama": "Pengembangan Tata Kelola Data Masyarakat", 
+    "deskripsi": "Desa Baron terlibat dalam uji petik Pemutakhiran Data Pemilih Berkelanjutan (PDPB) 2026 oleh Bawaslu Kabupaten Nganjuk untuk membantu memastikan validitas data pemilih." },
+    { "nama": "Kampung KB Berkelanjutan",
+    "deskripsi": "Desa Baron tercatat sebagai Kampung KB dengan klasifikasi Berkelanjutan dan pencanangan pada 2 Juni 2026." }
+  ]
 }

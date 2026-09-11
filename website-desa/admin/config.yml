@@ -229,3 +229,24 @@ collections:
             name: "urlWebsiteIni"
             widget: "string"
             hint: "Isi setelah website online, contoh: https://desabaron.netlify.app"
+
+      # ---------------------- 8. TEMPAT PENTING ----------------------
+      - name: "tempat_penting"
+        label: "8. Tempat Penting"
+        file: "website-desa/content/tempat-penting.json"
+        fields:
+          - label: "Daftar Tempat Penting"
+            name: "tempatPenting"
+            widget: "list"
+            summary: "{{nama}} — {{kategori}}"
+            fields:
+              - { label: "Nama Tempat", name: "nama", widget: "string" }
+              - label: "Kategori"
+                name: "kategori"
+                widget: "select"
+                options: ["Pemerintahan", "Kesehatan", "Pendidikan", "Umum"]
+              - { label: "Alamat (opsional)", name: "alamat", widget: "string", required: false }
+              - label: "Link Google Maps"
+                name: "mapsUrl"
+                widget: "string"
+                hint: "Buka Google Maps, cari tempatnya, klik Share/Bagikan, salin link-nya di sini"

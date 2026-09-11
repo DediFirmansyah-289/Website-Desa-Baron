@@ -1,74 +1,74 @@
 {
   "kegiatan": [
     {
+      "judul": "Pembukaan Bimbel Baron Mengajar",
+      "tanggal": "2026-09-11",
       "waktu": "15:30 WIB",
-      "videoYoutubeId": "",
+      "lokasi": "Balai Desa Baron",
+      "kategori": "Pendidikan",
+      "deskripsi": "Bimbingan belajar perdana diikuti 42 siswa SD dan SMP dengan antusias tinggi. Kegiatan diawali perkenalan tim KKNT dan pemetaan kemampuan dasar membaca serta berhitung siswa.\n\nOrang tua menyambut baik program ini karena selama ini akses bimbingan belajar di desa masih terbatas.",
       "foto": [
         "assets/images/kegiatan-mengajar-1.jpg",
         "assets/images/kegiatan-mengajar-2.jpg",
         "assets/images/kegiatan-mengajar-3.jpg"
       ],
-      "kategori": "Pendidikan",
-      "tanggal": "2026-09-11",
-      "lokasi": "Balai Desa Baron",
-      "judul": "Pembukaan Bimbel Baron Mengajar",
       "testimoni": {
         "nama": "-",
         "isi": "-"
       },
-      "deskripsi": "Bimbingan belajar perdana diikuti 42 siswa SD dan SMP dengan\n        antusias tinggi. Kegiatan diawali perkenalan tim KKNT dan pemetaan\n        kemampuan dasar membaca serta berhitung siswa.\n\n        Orang tua menyambut baik program ini karena selama ini akses\n        bimbingan belajar di desa masih terbatas."
+      "videoYoutubeId": ""
     },
     {
+      "judul": "-",
+      "tanggal": "2026-09-11",
       "waktu": "15:30 WIB",
-      "videoYoutubeId": "",
+      "lokasi": "-",
+      "kategori": "Kesehatan",
+      "deskripsi": "-",
       "foto": [
         "assets/images/kegiatan-posyandu-1.jpg",
         "assets/images/kegiatan-posyandu-2.jpg"
       ],
-      "kategori": "Kesehatan",
-      "tanggal": "2026-09-11",
-      "lokasi": "-",
-      "judul": "-",
       "testimoni": {
         "nama": "-",
         "isi": "-"
       },
-      "deskripsi": "-"
+      "videoYoutubeId": ""
     },
     {
+      "judul": "-",
+      "tanggal": "2026-09-11",
       "waktu": "-",
-      "videoYoutubeId": "",
+      "lokasi": "-",
+      "kategori": "Ekonomi",
+      "deskripsi": "-",
       "foto": [
         "assets/images/kegiatan-umkm-1.jpg",
         "assets/images/kegiatan-umkm-2.jpg",
         "assets/images/kegiatan-umkm-3.jpg"
       ],
-      "kategori": "Ekonomi",
-      "tanggal": "2026-09-11",
-      "lokasi": "-",
-      "judul": "-",
       "testimoni": {
         "nama": "-",
         "isi": "-"
       },
-      "deskripsi": "-"
+      "videoYoutubeId": ""
     },
     {
+      "judul": "-",
+      "tanggal": "2026-09-11",
       "waktu": "-",
-      "videoYoutubeId": "",
+      "lokasi": "-",
+      "kategori": "Kesehatan",
+      "deskripsi": "-",
       "foto": [
         "assets/images/kegiatan-posyandu-1.jpg",
         "assets/images/kegiatan-posyandu-2.jpg"
       ],
-      "kategori": "Kesehatan",
-      "tanggal": "2026-09-11",
-      "lokasi": "-",
-      "judul": "-",
       "testimoni": {
         "nama": "-",
         "isi": "-"
       },
-      "deskripsi": "-"
+      "videoYoutubeId": ""
     }
   ]
 }
