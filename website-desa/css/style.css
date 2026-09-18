@@ -19,6 +19,7 @@
   --kat-ekonomi: #c99a3b;
   --kat-lingkungan: #3c7a5a;
   --kat-sosial: #7a4a8f;
+  --kat-teknologi: #2f6a63;
 
   /* Tipografi */
   --font-display: "Fraunces", Georgia, serif;
@@ -362,9 +363,10 @@ section { padding: 88px 0; position: relative; }
 /* ==========================================================================
    TEMPAT PENTING
    ========================================================================== */
-.tempat-penting-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.tempat-penting-grid { display: flex; flex-wrap: wrap; gap: 14px; }
 .kartu-tempat {
   display: flex; align-items: center; gap: 14px;
+  flex: 1 1 280px; max-width: 360px;
   background: var(--putih-kabut); border: 1px solid var(--garis);
   padding: 16px 18px; border-radius: 2px; transition: all 0.2s;
 }
@@ -377,8 +379,31 @@ section { padding: 88px 0; position: relative; }
 .panah-tempat { font-size: 1.1rem; color: var(--coklat-muda); flex-shrink: 0; }
 
 @media (max-width: 640px) {
-  .tempat-penting-grid { grid-template-columns: 1fr; }
+  .kartu-tempat { flex-basis: 100%; max-width: 100%; }
 }
+
+/* ==========================================================================
+   UMKM DESA BARON
+   ========================================================================== */
+.umkm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.kartu-umkm { border: 1px solid var(--garis); background: var(--putih-kabut); display: flex; flex-direction: column; }
+.foto-umkm { aspect-ratio: 4/3; }
+.info-umkm { padding: 20px; flex: 1; display: flex; flex-direction: column; }
+.jenis-umkm {
+  font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--tanah-liat); display: block; margin-bottom: 8px;
+}
+.info-umkm h4 { font-size: 1.05rem; color: var(--hijau-tua); margin-bottom: 8px; }
+.info-umkm p { font-size: 0.88rem; color: var(--coklat-muda); margin-bottom: 16px; flex: 1; }
+.btn-maps-umkm {
+  font-family: var(--font-mono); font-size: 0.76rem; text-transform: uppercase;
+  color: var(--hijau-tua); border-top: 1px solid var(--garis); padding-top: 12px;
+  display: block; transition: color 0.2s;
+}
+.btn-maps-umkm:hover { color: var(--tanah-liat); }
+
+@media (max-width: 980px) { .umkm-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px) { .umkm-grid { grid-template-columns: 1fr; } }
 
 /* ==========================================================================
    KONTAK & LOKASI

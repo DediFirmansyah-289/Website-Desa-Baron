@@ -15,7 +15,7 @@ backend:
     openAuthoring: "Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge"
 
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-site_url: https://website-desa-baron.pages.dev
+site_url: https://desabaron.netlify.app
 
 # Tempat menyimpan foto yang diunggah lewat form admin
 media_folder: "website-desa/assets/images"
@@ -155,7 +155,7 @@ collections:
               - label: "Kategori"
                 name: "kategori"
                 widget: "select"
-                options: ["Pendidikan", "Kesehatan", "Ekonomi", "Lingkungan", "Sosial"]
+                options: ["Pendidikan", "Kesehatan", "Ekonomi", "Lingkungan", "Sosial", "Teknologi & Informasi"]
               - { label: "Foto Thumbnail", name: "thumbnail", widget: "image", required: false }
 
       # ---------------------- 5. DOKUMENTASI KEGIATAN ----------------------
@@ -175,7 +175,7 @@ collections:
               - label: "Kategori"
                 name: "kategori"
                 widget: "select"
-                options: ["Pendidikan", "Kesehatan", "Ekonomi", "Lingkungan", "Sosial"]
+                options: ["Olahraga & Kesehatan", "Ekonomi", "Pendidikan", "Teknologi & Informasi", "Lingkungan", "Sosial", "Ekonomi & Informasi", "Kesehatan"]
               - { label: "Deskripsi (2-3 paragraf)", name: "deskripsi", widget: "text" }
               - label: "Foto Kegiatan (bisa lebih dari satu)"
                 name: "foto"
@@ -188,8 +188,8 @@ collections:
                 fields:
                   - { label: "Nama Warga", name: "nama", widget: "string", required: false }
                   - { label: "Kutipan Testimoni", name: "isi", widget: "text", required: false }
-              - label: "ID Video YouTube (opsional)"
-                name: "videoYoutubeId"
+              - label: "ID Dokumentasi (opsional)"
+                name: "videoDokumentasiId"
                 widget: "string"
                 required: false
                 hint: "Contoh: dari link youtube.com/watch?v=ABC123, isi ABC123 saja"
@@ -209,30 +209,11 @@ collections:
               - label: "Kategori"
                 name: "kategori"
                 widget: "select"
-                options: ["Pendidikan", "Kesehatan", "Ekonomi", "Lingkungan", "Sosial"]
+                options: ["Olahraga & Kesehatan", "Ekonomi", "Pendidikan", "Teknologi & Informasi", "Lingkungan", "Sosial", "Ekonomi & Informasi", "Kesehatan", "Lainnya"]
 
-      # ---------------------- 7. KONTAK & LOKASI ----------------------
-      - name: "kontak_lokasi"
-        label: "7. Kontak & Lokasi"
-        file: "website-desa/content/kontak.json"
-        fields:
-          - { label: "Alamat Lengkap", name: "alamat", widget: "text" }
-          - label: "Nomor WhatsApp"
-            name: "whatsapp"
-            widget: "string"
-            required: false
-            hint: "Tanpa tanda + atau 0 di depan, contoh: 6281234567890"
-          - { label: "Email", name: "email", widget: "string", required: false }
-          - { label: "Link Instagram Desa", name: "instagramDesa", widget: "string", required: false }
-          - { label: "Link Instagram Tim KKNT", name: "instagramKKNT", widget: "string", required: false }
-          - label: "URL Website Ini (untuk QR Code)"
-            name: "urlWebsiteIni"
-            widget: "string"
-            hint: "Isi setelah website online, contoh: https://desabaron.netlify.app"
-
-      # ---------------------- 8. TEMPAT PENTING ----------------------
+      # ---------------------- 7. TEMPAT PENTING ----------------------
       - name: "tempat_penting"
-        label: "8. Tempat Penting"
+        label: "7. Tempat Penting"
         file: "website-desa/content/tempat-penting.json"
         fields:
           - label: "Daftar Tempat Penting"
@@ -250,3 +231,45 @@ collections:
                 name: "mapsUrl"
                 widget: "string"
                 hint: "Buka Google Maps, cari tempatnya, klik Share/Bagikan, salin link-nya di sini"
+
+      # ---------------------- 8. UMKM DESA BARON ----------------------
+      - name: "umkm_desa"
+        label: "8. UMKM Desa Baron"
+        file: "website-desa/content/umkm.json"
+        fields:
+          - label: "Daftar UMKM"
+            name: "umkm"
+            widget: "list"
+            summary: "{{nama}} — {{jenisUsaha}}"
+            fields:
+              - { label: "Nama Usaha", name: "nama", widget: "string" }
+              - label: "Jenis Usaha"
+                name: "jenisUsaha"
+                widget: "select"
+                options: ["Kuliner", "Kerajinan", "Pertanian", "Jasa", "Lainnya"]
+              - { label: "Deskripsi Singkat", name: "deskripsi", widget: "text" }
+              - { label: "Foto Produk/Usaha", name: "foto", widget: "image", required: false }
+              - label: "Link Google Maps"
+                name: "mapsUrl"
+                widget: "string"
+                required: false
+                hint: "Buka Google Maps, cari lokasi usahanya, klik Share/Bagikan, salin link-nya di sini"
+
+      # ---------------------- 9. KONTAK & LOKASI ----------------------
+      - name: "kontak_lokasi"
+        label: "9. Kontak & Lokasi"
+        file: "website-desa/content/kontak.json"
+        fields:
+          - { label: "Alamat Lengkap", name: "alamat", widget: "text" }
+          - label: "Nomor WhatsApp"
+            name: "whatsapp"
+            widget: "string"
+            required: false
+            hint: "Tanpa tanda + atau 0 di depan, contoh: 6281234567890"
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - { label: "Link Instagram Desa", name: "instagramDesa", widget: "string", required: false }
+          - { label: "Link Instagram Tim KKNT", name: "instagramKKNT", widget: "string", required: false }
+          - label: "URL Website Ini (untuk QR Code)"
+            name: "urlWebsiteIni"
+            widget: "string"
+            hint: "Isi setelah website online, contoh: https://website-desa-baron.pages.dev/"

@@ -1,8 +1,8 @@
 {
   "perangkat": [
-    { "nama": "Slamet Indrianto", "jabatan": "Kepala Desa (Pelindung)", "kontak": "", "foto": "" },
-    { "nama": "Febrianasari Isnarika Putri", "jabatan": "TP PKK Desa (Penasihat)", "kontak": "", "foto": "" },
-    { "nama": "Tety Faradilah, S.Pd", "jabatan": "Penyuluh KB (Pembina)", "kontak": "", "foto": "" },
-    { "nama": "Dwi Marheni Yuliati", "jabatan": "Ketua (Pelaksana)", "kontak": "", "foto": "" }
+    { "nama": "Slamet Indrianto", "jabatan": "Kepala Desa (Pelindung)", "kontak": "-","foto": "" },
+    { "nama": "Febrianasari Isnarika Putri", "jabatan": "TP PKK Desa (Penasihat)", "kontak": "-", "foto": "" },
+    { "nama": "Tety Faradilah, S.Pd", "jabatan": "Penyuluh KB (Pembina)", "kontak": "-", "foto": "" },
+    { "nama": "Dwi Marheni Yuliati", "jabatan": "Ketua (Pelaksana)", "kontak": "-", "foto": "" }
   ]
 }

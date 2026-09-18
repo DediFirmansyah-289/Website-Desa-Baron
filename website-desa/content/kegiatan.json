@@ -1,74 +1,347 @@
 {
   "kegiatan": [
     {
-      "judul": "Pembukaan Bimbel Baron Mengajar",
-      "tanggal": "2026-09-11",
-      "waktu": "15:30 WIB",
+      "judul": "Observasi dan Penyerahan Surat Izin Kegiatan KKNT",
+      "tanggal": "2026-08-07",
+      "waktu": "09:00 WIB",
       "lokasi": "Balai Desa Baron",
+      "kategori": "Lainnya",
+      "deskripsi": "Kegiatan observasi dan penyerahan surat izin kegiatan KKNT dilaksanakan sebagai langkah awal persiapan program kerja di Desa Baron. Kegiatan diawali dengan observasi lingkungan desa dan koordinasi bersama pihak terkait untuk memahami kondisi serta kebutuhan masyarakat.\n\nPenyerahan surat izin menjadi bentuk administrasi dan koordinasi resmi sebelum pelaksanaan kegiatan KKNT, sekaligus membangun komunikasi yang baik dengan pemerintah desa.",
+      "foto": [
+        "assets/images/kegiatan/1.jpeg",
+        "assets/images/kegiatan/2.jpeg",
+        "assets/images/kegiatan/3.jpeg"
+      ],
+      "testimoni": {
+        "nama": "Perangkat Desa Baron",
+        "isi": "Pemerintah Desa Baron menyambut baik kedatangan tim KKNT dan mendukung rencana kegiatan yang akan dilaksanakan. Koordinasi ini menjadi langkah awal untuk membangun kerja sama yang baik bersama masyarakat."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Pertemuan dan Pembekalan Tim KKNT dengan Dosen Pembimbing Lapangan (DPL)",
+      "tanggal": "2026-08-13",
+      "waktu": "10:50 WIB",
+      "lokasi": "Posko KKNT",
+      "kategori": "Lainnya",
+      "deskripsi": "Pertemuan dan pembekalan tim KKNT bersama Dosen Pembimbing Lapangan (DPL) dilaksanakan sebagai persiapan sebelum menjalankan program kerja di Desa Baron. Kegiatan ini menjadi kesempatan untuk menyampaikan arahan, berdiskusi, dan memperkuat kesiapan tim dalam melaksanakan pengabdian kepada masyarakat.",
+      "foto": [
+        "assets/images/kegiatan/4.JPG",
+        "assets/images/kegiatan/5.JPG",
+        "assets/images/kegiatan/6.JPG"
+      ],
+      "testimoni": {
+        "nama": "Dosen Pembimbing Lapangan",
+        "isi": "Saya senang bisa berkontribusi dalam membantu tim KKNT dalam mempersiapkan program kerja di Desa Baron. Semoga kegiatan ini dapat memberikan manfaat yang besar bagi masyarakat."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Pembukaan KKNT di Pendopo Kabupaten Nganjuk",
+      "tanggal": "2026-08-13",
+      "waktu": "-",
+      "lokasi": "Pendopo Kabupaten Nganjuk",
+      "kategori": "Lainnya",
+      "deskripsi": "Pembukaan KKNT dilaksanakan di Pendopo Kabupaten Nganjuk sebagai tanda dimulainya rangkaian kegiatan pengabdian kepada masyarakat. Kegiatan ini menjadi momentum bagi seluruh tim KKNT untuk memulai perjalanan dan menjalankan program kerja di desa masing-masing.",
+      "foto": [
+        "assets/images/kegiatan/7.JPG",
+        "assets/images/kegiatan/8.JPG",
+        "assets/images/kegiatan/9.JPG",
+        "assets/images/kegiatan/10.JPG",
+        "assets/images/kegiatan/11.JPG"
+      ],
+      "testimoni": {
+        "nama": "-",
+        "isi": "-"
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Koordinasi dengan Kepala Desa Baron dan karang taruna terkait program kerja KKNT",
+      "tanggal": "2026-08-14",
+      "waktu": "-",
+      "lokasi": "Balai Desa Baron",
+      "kategori": "Lainnya",
+      "deskripsi": "Koordinasi dengan Kepala Desa Baron dan karang taruna dilaksanakan untuk membahas program kerja KKNT yang akan dijalankan di desa. Kegiatan ini menjadi kesempatan untuk menyampaikan rencana kegiatan, mendengarkan masukan, dan memastikan program kerja sesuai dengan kebutuhan masyarakat.",
+      "foto": [
+        "assets/images/kegiatan/12.JPG",
+        "assets/images/kegiatan/13.JPG",
+        "assets/images/kegiatan/14.JPG",
+        "assets/images/kegiatan/15.JPG"
+      ],
+      "testimoni": {
+        "nama": "Kepala Desa Baron",
+        "isi": "Kami sangat mendukung kegiatan ini dan berharap dapat bekerja sama secara sinergis dengan tim KKNT untuk mencapai tujuan program kerja yang telah direncanakan."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Sosialisasi Olahraga Wanita dan Lansia bersama PKK Desa Baron",
+      "tanggal": "2026-08-15",
+      "waktu": "-",
+      "lokasi": "Balai Desa Baron",
+      "kategori": "Lainnya",
+      "deskripsi": "Sosialisasi Olahraga Wanita dan Lansia bersama PKK Desa Baron dilaksanakan untuk meningkatkan kesadaran masyarakat tentang pentingnya berolahraga. Kegiatan ini menjadi momentum untuk memperkuat kebersamaan dan kesehatan masyarakat desa.",
+      "foto": [
+        "assets/images/kegiatan/16.JPG",
+        "assets/images/kegiatan/17.JPG",
+        "assets/images/kegiatan/18.png"
+      ],
+      "testimoni": {
+        "nama": "PKK Desa Baron",
+        "isi": "Kami mengapresiasi kegiatan sosialisasi olahraga ini karena dapat meningkatkan kesadaran masyarakat tentang pentingnya berolahraga, terutama bagi wanita dan lansia. Semoga kegiatan ini dapat memberikan manfaat yang besar bagi kesehatan masyarakat."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Upacara HUT RI ke-81 di Lapangan Desa Baron",
+      "tanggal": "2026-08-17",
+      "waktu": "07:00 WIB",
+      "lokasi": "Lapangan Desa Baron",
+      "kategori": "Lainnya",
+      "deskripsi": "Upacara HUT RI ke-81 dilaksanakan di Lapangan Desa Baron sebagai bentuk peringatan dan penghormatan terhadap perjuangan para pahlawan dalam merebut kemerdekaan. Kegiatan ini menjadi momen penting bagi masyarakat desa untuk memperkuat rasa nasionalisme dan kebersamaan.",
+      "foto": [
+        "assets/images/kegiatan/19.JPG",
+        "assets/images/kegiatan/20.JPG",
+        "assets/images/kegiatan/21.JPG",
+        "assets/images/kegiatan/22.JPG",
+        "assets/images/kegiatan/23.JPG",
+        "assets/images/kegiatan/24.JPG",
+        "assets/images/kegiatan/25.JPG",
+        "assets/images/kegiatan/26.JPG",
+        "assets/images/kegiatan/27.JPG",
+        "assets/images/kegiatan/28.JPG",
+        "assets/images/kegiatan/29.JPG",
+        "assets/images/kegiatan/30.JPG"
+
+      ],
+      "testimoni": {
+        "nama": "Kepala Desa Baron",
+        "isi": "Kami mengapresiasi upacara HUT RI ke-81 ini karena dapat memperkuat rasa nasionalisme dan kebersamaan di kalangan masyarakat desa."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Pemaparan Program Kerja KKNT di Balai Desa Baron",
+      "tanggal": "2026-08-20",
+      "waktu": "09:00 WIB",
+      "lokasi": "Balai Desa Baron",
+      "kategori": "Lainnya",
+      "deskripsi": "Pemaparan program kerja KKNT dilaksanakan di Balai Desa Baron sebagai bentuk transparansi dan komunikasi dengan masyarakat. Kegiatan ini menjadi kesempatan untuk menyampaikan rencana kegiatan, mendengarkan masukan, dan memastikan program kerja sesuai dengan kebutuhan masyarakat.",
+      "foto": [
+        "assets/images/kegiatan/31.png",
+        "assets/images/kegiatan/32.png",
+        "assets/images/kegiatan/33.png",
+        "assets/images/kegiatan/34.png",
+        "assets/images/kegiatan/35.png",
+        "assets/images/kegiatan/36.png",
+        "assets/images/kegiatan/37.png",
+        "assets/images/kegiatan/38.png",
+        "assets/images/kegiatan/39.png",
+        "assets/images/kegiatan/40.JPG",
+        "assets/images/kegiatan/41.JPG",
+        "assets/images/kegiatan/42.JPG"
+      ],
+      "testimoni": {
+        "nama": "Kepala Desa Baron",
+        "isi": "Kami mengapresiasi pemaparan program kerja KKNT ini karena dapat memberikan informasi yang jelas kepada masyarakat tentang rencana kegiatan yang akan dilaksanakan. Semoga kegiatan ini dapat berjalan dengan lancar dan memberikan manfaat yang besar bagi masyarakat."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Jalan Santai di Dusun Lobeser Timur untuk Meningkatkan Kesehatan Masyarakat",
+      "tanggal": "2026-08-23",
+      "waktu": "08:00 WIB",
+      "lokasi": "Dusun Lobeser Timur",
+      "kategori": "Lainnya",
+      "deskripsi": "Kegiatan jalan santai di Dusun Lobeser Timur dilaksanakan untuk meningkatkan kesehatan masyarakat dengan memberikan kesempatan bagi warga untuk berolahraga secara bersama-sama. Kegiatan ini juga bertujuan untuk memperkuat hubungan sosial di antara warga desa.",
+      "foto": [
+        "assets/images/kegiatan/43.png",
+        "assets/images/kegiatan/44.png",
+        "assets/images/kegiatan/45.png",
+        "assets/images/kegiatan/46.png",
+        "assets/images/kegiatan/47.png",
+        "assets/images/kegiatan/48.png",
+        "assets/images/kegiatan/49.png",
+        "assets/images/kegiatan/50.png",
+        "assets/images/kegiatan/51.png",
+        "assets/images/kegiatan/52.png",
+        "assets/images/kegiatan/53.png"
+      ],
+      "testimoni": {
+        "nama": "Warga Dusun Lobeser Timur",
+        "isi": "Kegiatan jalan santai ini sangat bermanfaat untuk kesehatan fisik dan mental kami. Terima kasih kepada pihak desa yang telah mengadakan kegiatan ini."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "tanggal": "2026-08-24",
+      "waktu": "08:00 WIB",
+      "lokasi": "SD Negeri 3 Baron",
       "kategori": "Pendidikan",
-      "deskripsi": "Bimbingan belajar perdana diikuti 42 siswa SD dan SMP dengan antusias tinggi. Kegiatan diawali perkenalan tim KKNT dan pemetaan kemampuan dasar membaca serta berhitung siswa.\n\nOrang tua menyambut baik program ini karena selama ini akses bimbingan belajar di desa masih terbatas.",
+      "deskripsi": "Sosialisasi Gerakan Sekolah Aman (GSA) dilaksanakan di SD Negeri 3 Baron sebagai bentuk edukasi dan kampanye anti-perundungan di sekolah. Kegiatan ini menjadi kesempatan untuk mengajak siswa mengenali, mencegah, dan berani melapor jika mengalami atau menyaksikan tindakan bullying. Program ini bertujuan menciptakan lingkungan belajar yang aman, nyaman, dan ramah bagi semua siswa.",
       "foto": [
-        "assets/images/kegiatan-mengajar-1.jpg",
-        "assets/images/kegiatan-mengajar-2.jpg",
-        "assets/images/kegiatan-mengajar-3.jpg"
+        "assets/images/kegiatan/54.JPG",
+        "assets/images/kegiatan/55.JPG",
+        "assets/images/kegiatan/56.JPG",
+        "assets/images/kegiatan/57.JPG",
+        "assets/images/kegiatan/58.JPG",
+        "assets/images/kegiatan/59.JPG",
+        "assets/images/kegiatan/60.JPG",
+        "assets/images/kegiatan/61.JPG",
+        "assets/images/kegiatan/62.JPG",
+        "assets/images/kegiatan/63.JPG"
       ],
       "testimoni": {
-        "nama": "-",
-        "isi": "-"
+        "nama": "Guru SD Negeri 3 Baron",
+        "isi": "Kegiatan sosialisasi GSA ini sangat bermanfaat untuk meningkatkan kesadaran tentang perundungan di sekolah. Terima kasih kepada pihak KKNT yang telah mengadakan kegiatan ini."
       },
-      "videoYoutubeId": ""
+      "videoDokumentasiId": ""
     },
     {
-      "judul": "-",
-      "tanggal": "2026-09-11",
-      "waktu": "15:30 WIB",
-      "lokasi": "-",
+      "judul": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "tanggal": "2026-08-26",
+      "waktu": "08:00 WIB",
+      "lokasi": "SD Negeri 2 Baron",
+      "kategori": "Pendidikan",
+      "deskripsi": "Sosialisasi Gerakan Sekolah Aman (GSA) dilaksanakan di SD Negeri 3 Baron sebagai bentuk edukasi dan kampanye anti-perundungan di sekolah. Kegiatan ini menjadi kesempatan untuk mengajak siswa mengenali, mencegah, dan berani melapor jika mengalami atau menyaksikan tindakan bullying. Program ini bertujuan menciptakan lingkungan belajar yang aman, nyaman, dan ramah bagi semua siswa.",
+      "foto": [
+        "assets/images/kegiatan/64.JPG",
+        "assets/images/kegiatan/65.JPG",
+        "assets/images/kegiatan/66.JPG"
+      ],
+      "testimoni": {
+        "nama": "Guru SD Negeri 2 Baron",
+        "isi": "Kegiatan sosialisasi GSA ini sangat bermanfaat untuk meningkatkan kesadaran tentang perundungan di sekolah. Terima kasih kepada pihak KKNT yang telah mengadakan kegiatan ini."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Senam Sehat bersama PKK Desa Baron untuk Meningkatkan Kesehatan",
+      "tanggal": "2026-08-28",
+      "waktu": "08:00 WIB",
+      "lokasi": "Balai Desa Baron",
+      "kategori": "Olahraga & Kesehatan",
+      "deskripsi": "Senam sehat bersama PKK Desa Baron dilaksanakan untuk meningkatkan kesehatan masyarakat dengan memberikan kesempatan bagi warga untuk berolahraga secara bersama-sama. Kegiatan ini juga bertujuan untuk memperkuat hubungan sosial di antara warga desa.",
+      "foto": [
+        "assets/images/kegiatan/67.JPG",
+        "assets/images/kegiatan/68.JPG",
+        "assets/images/kegiatan/69.JPG",
+        "assets/images/kegiatan/70.png"
+      ],
+      "testimoni": {
+        "nama": "PKK Desa Baron",
+        "isi": "Kegiatan senam sehat ini sangat bermanfaat untuk meningkatkan kesehatan masyarakat. Terima kasih kepada pihak PKK yang telah mengadakan kegiatan ini."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Lomba di SD Negeri 3 Baron",
+      "tanggal": "2026-08-29",
+      "waktu": "08:00 WIB",
+      "lokasi": "SD Negeri 3 Baron",
+      "kategori": "Lainnya",
+      "deskripsi": "Lomba di SD Negeri 3 Baron dilaksanakan untuk memperkuat semangat persaingan dan kebersamaan di antara siswa. Kegiatan ini juga bertujuan untuk mengembangkan bakat dan minat siswa dalam berbagai bidang.",
+      "foto": [
+        "assets/images/kegiatan/71.JPG",
+        "assets/images/kegiatan/72.JPG",
+        "assets/images/kegiatan/73.JPG",
+        "assets/images/kegiatan/74.JPG",
+        "assets/images/kegiatan/75.JPG",
+        "assets/images/kegiatan/76.JPG",
+        "assets/images/kegiatan/77.JPG",
+        "assets/images/kegiatan/78.JPG",
+        "assets/images/kegiatan/79.JPG",
+        "assets/images/kegiatan/80.JPG",
+        "assets/images/kegiatan/81.JPG",
+        "assets/images/kegiatan/82.JPG"
+      ],
+      "testimoni": {
+        "nama": "Guru SD Negeri 3 Baron",
+        "isi": "Kegiatan lomba ini sangat bermanfaat untuk memperkuat semangat persaingan dan kebersamaan di antara siswa. Terima kasih kepada pihak sekolah yang telah mengadakan kegiatan ini."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Posyandu Lansia Desa Baron",
+      "tanggal": "2026-09-02",
+      "waktu": "08:00 WIB",
+      "lokasi": "Rumah Kepala Dusun Lobeser Timur",
       "kategori": "Kesehatan",
-      "deskripsi": "-",
+      "deskripsi": "Posyandu Lansia Desa Baron dilaksanakan untuk memberikan pelayanan kesehatan kepada lansia di desa. Kegiatan ini juga bertujuan untuk meningkatkan kesadaran masyarakat tentang pentingnya perawatan kesehatan bagi lansia.",
       "foto": [
-        "assets/images/kegiatan-posyandu-1.jpg",
-        "assets/images/kegiatan-posyandu-2.jpg"
+        "assets/images/kegiatan/83.png"
       ],
       "testimoni": {
-        "nama": "-",
-        "isi": "-"
+        "nama": "Kepala Dusun Lobeser Timur",
+        "isi": "Kegiatan posyandu ini sangat bermanfaat untuk memberikan pelayanan kesehatan kepada lansia di desa. Terima kasih kepada pihak desa yang telah mengadakan kegiatan ini."
       },
-      "videoYoutubeId": ""
+      "videoDokumentasiId": ""
     },
     {
-      "judul": "-",
-      "tanggal": "2026-09-11",
-      "waktu": "-",
-      "lokasi": "-",
-      "kategori": "Ekonomi",
-      "deskripsi": "-",
+      "judul": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "tanggal": "2026-09-03",
+      "waktu": "08:00 WIB",
+      "lokasi": "SD Negeri 5 Baron",
+      "kategori": "Pendidikan",
+      "deskripsi": "Sosialisasi Gerakan Sekolah Aman (GSA) dilaksanakan di SD Negeri 3 Baron sebagai bentuk edukasi dan kampanye anti-perundungan di sekolah. Kegiatan ini menjadi kesempatan untuk mengajak siswa mengenali, mencegah, dan berani melapor jika mengalami atau menyaksikan tindakan bullying. Program ini bertujuan menciptakan lingkungan belajar yang aman, nyaman, dan ramah bagi semua siswa.",
       "foto": [
-        "assets/images/kegiatan-umkm-1.jpg",
-        "assets/images/kegiatan-umkm-2.jpg",
-        "assets/images/kegiatan-umkm-3.jpg"
+        "assets/images/kegiatan/84.png"
       ],
       "testimoni": {
-        "nama": "-",
-        "isi": "-"
+        "nama": "Guru SD Negeri 5 Baron",
+        "isi": "Kegiatan sosialisasi GSA ini sangat bermanfaat untuk meningkatkan kesadaran tentang perundungan di sekolah. Terima kasih kepada pihak KKNT yang telah mengadakan kegiatan ini."
       },
-      "videoYoutubeId": ""
+      "videoDokumentasiId": ""
     },
     {
-      "judul": "-",
-      "tanggal": "2026-09-11",
-      "waktu": "-",
-      "lokasi": "-",
+      "judul": "Posyandu Balta dan Lansia Desa Baron",
+      "tanggal": "2026-09-04",
+      "waktu": "08:00 WIB",
+      "lokasi": "Rumah Kepala Desa Baron",
       "kategori": "Kesehatan",
-      "deskripsi": "-",
+      "deskripsi": "Posyandu Balita dan Lansia Desa Baron dilaksanakan untuk memberikan pelayanan kesehatan kepada balita dan lansia di desa. Kegiatan ini juga bertujuan untuk meningkatkan kesadaran masyarakat tentang pentingnya perawatan kesehatan bagi balita dan lansia.",
       "foto": [
-        "assets/images/kegiatan-posyandu-1.jpg",
-        "assets/images/kegiatan-posyandu-2.jpg"
+        "assets/images/kegiatan/85.png"
       ],
       "testimoni": {
-        "nama": "-",
-        "isi": "-"
+        "nama": "Kepala Desa Baron",
+        "isi": "Kegiatan posyandu ini sangat bermanfaat untuk memberikan pelayanan kesehatan kepada balita dan lansia di desa. Terima kasih kepada pihak desa yang telah mengadakan kegiatan ini."
       },
-      "videoYoutubeId": ""
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Posyandu Balta dan Lansia Desa Baron",
+      "tanggal": "2026-09-08",
+      "waktu": "08:00 WIB",
+      "lokasi": "Rumah Kepala Dusun Baron Timur",
+      "kategori": "Kesehatan",
+      "deskripsi": "Posyandu Balita dan Lansia Desa Baron dilaksanakan untuk memberikan pelayanan kesehatan kepada balita dan lansia di desa. Kegiatan ini juga bertujuan untuk meningkatkan kesadaran masyarakat tentang pentingnya perawatan kesehatan bagi balita dan lansia.",
+      "foto": [
+        "assets/images/kegiatan/16.JPG"
+      ],
+      "testimoni": {
+        "nama": "Kepala Dusun Baron Timur",
+        "isi": "Kegiatan posyandu ini sangat bermanfaat untuk memberikan pelayanan kesehatan kepada balita dan lansia di desa. Terima kasih kepada pihak desa yang telah mengadakan kegiatan ini."
+      },
+      "videoDokumentasiId": ""
+    },
+    {
+      "judul": "Membantu Kegiatan bersih bersih Masjid Baitur Rahim Dusun Lobeser Timur",
+      "tanggal": "2026-09-11",
+      "waktu": "07:00 WIB",
+      "lokasi": "Masjid Baitur Rahim Dusun Lobeser Timur",
+      "kategori": "Lainnya",
+      "deskripsi": "Kegiatan bersih-bersih Masjid Baitur Rahim dilaksanakan untuk menjaga kebersihan dan kenyamanan tempat ibadah bagi masyarakat. Kegiatan ini juga bertujuan untuk memperkuat rasa kebersamaan dan kepedulian terhadap lingkungan sekitar.",
+      "foto": [
+        "assets/images/kegiatan/16.JPG"
+      ],
+      "testimoni": {
+        "nama": "Pengurus Masjid Baitur Rahim",
+        "isi": "Kegiatan bersih-bersih ini sangat bermanfaat untuk menjaga kebersihan tempat ibadah. Terima kasih kepada semua pihak yang telah berkontribusi."
+      },
+      "videoDokumentasiId": ""
     }
   ]
 }

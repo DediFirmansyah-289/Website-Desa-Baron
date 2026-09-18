@@ -1,5 +1,82 @@
 {
   "tempatPenting": [
-    { "nama": "Kantor Desa Baron", "kategori": "Pemerintahan", "alamat": "", "mapsUrl": "https://maps.app.goo.gl/a8cks6a7u3qApMTS9" }
+    {
+      "nama": "Kantor Desa Baron",
+      "kategori": "Pemerintahan",
+      "alamat": "93V2+6P3, Jl. Ngronggot, Lobesar, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/a8cks6a7u3qApMTS9"
+    },
+    {
+      "nama": "Kantor Kecamatan Baron",
+      "kategori": "Pemerintahan",
+      "alamat": "93V2+9X2, Jl. Raya Baron, Lobesar, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/nZjWCNGAcA7sApqv9"
+    },
+    {
+      "nama": "Taman RTH Cahyaning Baron",
+      "kategori": "Taman & Ruang Terbuka",
+      "alamat": "Jl. Raya Baron No.163, Wates, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/koLVHmneSsGuo4CR9"
+    },
+    {
+      "nama": "Pasar Baron",
+      "kategori": "Pasar & Perdagangan",
+      "alamat": "Jl. Raya Baron, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/RQ75buyPkwdpynJ56"
+    },
+    {
+      "nama": "Lapangan Baron",
+      "kategori": "Olahraga & Rekreasi",
+      "alamat": "Jl. Panglima Sudirman No.224, Wates, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/fGZSbnrzDkSdoaMT9"
+    },
+    {
+      "nama": "Puskesmas Baron",
+      "kategori": "Kesehatan",
+      "alamat": "Jl. Baron - Lengkong No.17, Padasan, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/2Bowrc5CDbutaxe98"
+    },
+    {
+      "nama": "SD Negeri 1 Baron",
+      "kategori": "SD",
+      "alamat": "Jl. Raya Baron No.211, Padasan, Baron, Nganjuk, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/2bTCpvkDnvgUh3zj7"
+    },
+    {
+      "nama": "SD Negeri 2 Baron",
+      "kategori": "SD",
+      "alamat": "93X4+QH5, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/HwVsXPTBik1TqaBd9"
+    },
+    {
+      "nama": "SD Negeri 3 Baron",
+      "kategori": "SD",
+      "alamat": "Wates, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/xFxUTfj5sXwhNGRp9"
+    },
+    {
+      "nama": "SD Negeri 5 Baron",
+      "kategori": "SD",
+      "alamat": "Jalan Wilis Dsn, Jl. Baron Timur No.Desa, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/NXbuBESwF7FQe4Mr7"
+    },
+    {
+      "nama": "SMP-SMA Bina Insan Mandiri",
+      "kategori": "SMP-SMA",
+      "alamat": "93Q5+CW7, Kompleks Pondok Pesantren Al-Ihsan, Dsn. Baron Timur, Ds. Baron, Kec. Baron, Lobesar, Baron, Nganjuk, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/yFzrHkj9KX3Wivfr5"
+    },
+    {
+      "nama": "SMP Muhammadiyah 3 Baron",
+      "kategori": "SMP",
+      "alamat": "Jl. Baron, Padasan, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/1ATsyyYTXEMjrozo6"
+    },
+    {
+      "nama": "SMK Muhammadiyah 1 Baron",
+      "kategori": "SMK",
+      "alamat": "JL. Barat Pasar No.27, Padasan, Baron, Kec. Baron, Kabupaten Nganjuk, Jawa Timur 64394",
+      "mapsUrl": "https://maps.app.goo.gl/WY4y5ihWcxv3rpDXA"
+    }
   ]
 }
