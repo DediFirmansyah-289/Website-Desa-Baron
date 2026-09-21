@@ -1,33 +1,32 @@
 {
-  "umkm": 
-  [
-  { 
-    "nama": "Nasi Kuning Bu Ribut",
-    "jenisUsaha": "Kuliner",
-    "deskripsi": "Nasi Kuning Bu Ribut merupakan salah satu usaha kuliner yang menyediakan nasi kuning dengan cita rasa lezat dan cocok untuk sarapan maupun santapan sehari-hari. Hadir sebagai pilihan kuliner bagi masyarakat Desa Baron dan sekitarnya.",
-    "foto": "assets/images/umkm/4.png",
-    "mapsUrl": "https://maps.app.goo.gl/CHC3qKSPLtXqRc8LA"
-  },
-  { 
-    "nama": "Warung Bu Amin",
-    "jenisUsaha": "Kuliner",
-    "deskripsi": "Warung Bu Amin merupakan salah satu usaha kuliner yang menyediakan berbagai pilihan makanan dan minuman untuk masyarakat Desa Baron dan sekitarnya. Hadir sebagai tempat makan yang cocok untuk memenuhi kebutuhan kuliner sehari-hari.",
-    "foto": "assets/images/umkm/2.png",
-    "mapsUrl": "https://maps.app.goo.gl/7cZUJJ9N3vNnNXKJ7"
-  },
-  { 
-    "nama": "Toko Kelontong Bu Sari",
-    "jenisUsaha": "Kuliner",
-    "deskripsi": "Toko Kelontong Bu Sari merupakan salah satu usaha perdagangan di Desa Baron yang menyediakan berbagai kebutuhan sehari-hari bagi masyarakat. Hadir sebagai pilihan belanja yang praktis dan mudah dijangkau oleh warga Desa Baron dan sekitarnya.",
-    "foto": "assets/images/umkm/3.png",
-    "mapsUrl": "https://maps.app.goo.gl/ZEhNEme379fBDb6o9"
-  },
-  { 
-    "nama": "Bakso CJDW pak Pri",
-    "jenisUsaha": "Kuliner",
-    "deskripsi": "Bakso CJDW Pak Pri merupakan salah satu usaha kuliner di Desa Baron yang menyediakan hidangan bakso dengan cita rasa yang cocok dinikmati oleh masyarakat. Menjadi salah satu pilihan kuliner bagi warga Desa Baron dan sekitarnya.",
-    "foto": "assets/images/umkm/1.png",
-    "mapsUrl": "https://maps.app.goo.gl/KmAX66tV3bs22MVH9"
-  }
+  "umkm": [
+    {
+      "nama": "Nasi Kuning Bu Ribut",
+      "jenisUsaha": "Kuliner",
+      "deskripsi": "Nasi Kuning Bu Ribut merupakan salah satu usaha kuliner yang menyediakan nasi kuning dengan cita rasa lezat dan cocok untuk sarapan maupun santapan sehari-hari. Hadir sebagai pilihan kuliner bagi masyarakat Desa Baron dan sekitarnya.",
+      "foto": "assets/images/umkm/4.png",
+      "mapsUrl": "https://maps.app.goo.gl/CHC3qKSPLtXqRc8LA"
+    },
+    {
+      "nama": "Warung Bu Amin",
+      "jenisUsaha": "Kuliner",
+      "deskripsi": "Warung Bu Amin merupakan salah satu usaha kuliner yang menyediakan berbagai pilihan makanan dan minuman untuk masyarakat Desa Baron dan sekitarnya. Hadir sebagai tempat makan yang cocok untuk memenuhi kebutuhan kuliner sehari-hari.",
+      "foto": "assets/images/umkm/2.png",
+      "mapsUrl": "https://maps.app.goo.gl/7cZUJJ9N3vNnNXKJ7"
+    },
+    {
+      "nama": "Toko Kelontong Bu Sari",
+      "jenisUsaha": "Perdagangan",
+      "deskripsi": "Toko Kelontong Bu Sari merupakan salah satu usaha perdagangan di Desa Baron yang menyediakan berbagai kebutuhan sehari-hari bagi masyarakat. Hadir sebagai pilihan belanja yang praktis dan mudah dijangkau oleh warga Desa Baron dan sekitarnya.",
+      "foto": "assets/images/umkm/3.png",
+      "mapsUrl": "https://maps.app.goo.gl/ZEhNEme379fBDb6o9"
+    },
+    {
+      "nama": "Bakso CJDW Pak Pri",
+      "jenisUsaha": "Kuliner",
+      "deskripsi": "Bakso CJDW Pak Pri merupakan salah satu usaha kuliner di Desa Baron yang menyediakan hidangan bakso dengan cita rasa yang cocok dinikmati oleh masyarakat. Menjadi salah satu pilihan kuliner bagi warga Desa Baron dan sekitarnya.",
+      "foto": "assets/images/umkm/1.png",
+      "mapsUrl": "https://maps.app.goo.gl/KmAX66tV3bs22MVH9"
+    }
   ]
 }

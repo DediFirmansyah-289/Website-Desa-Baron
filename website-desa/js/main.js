@@ -1093,10 +1093,8 @@ function renderProkerja() {
           </span>
           
           <span>
-           ${formatRentangTanggal(
-            program.tanggalMulai, program.tanggalSelesai
-           )}
-           </span>
+          ${escapeHTML(program.tanggal || "-")}
+          </span>
 
         </div>
       `;
@@ -1167,13 +1165,13 @@ function renderKegiatan() {
           <div class="kegiatan-meta">
 
             <span>
-              📅 
-              ${formatRentangTanggal(
-                kegiatan.tanggalMulai, kegiatan.tanggalSelesai
-              )},
-              ${escapeHTML(
-                kegiatan.waktu || ""
-              )}
+             📅
+             ${escapeHTML(
+               kegiatan.tanggal || "-"
+             )},
+             ${escapeHTML(
+               kegiatan.waktu || ""
+             )}
             </span>
 
             <span>
@@ -1670,12 +1668,18 @@ function tutupLightbox() {
 */
 
 const IKON_KATEGORI_TEMPAT = {
-
   Pemerintahan: "🏛️",
-
   Kesehatan: "🏥",
-
   Pendidikan: "🏫",
+
+  "Taman & Ruang Terbuka": "🌳",
+  "Pasar & Perdagangan": "🛒",
+  "Olahraga & Rekreasi": "⚽",
+
+  SD: "🏫",
+  "SMP-SMA": "🏫",
+  SMP: "🏫",
+  SMK: "🏫",
 
   Umum: "📍",
 };
@@ -1992,16 +1996,18 @@ function renderKontak() {
     sosial.appendChild(link);
   });
 
-  const tiktok = objectAman(k.tiktok);
-  const tiktokUrl = teks(tiktok.url).trim();
-  if (tiktokUrl && tiktokUrl !== "-" && sosial) {
-    const link = document.createElement("a");
-    link.href = tiktokUrl;
-    link.target = "_blank";
-    link.rel = "noopener";
-    link.textContent = tiktok.keterangan || "TikTok";
-    sosial.appendChild(link);
-  }
+arrayAman(k.tiktok).forEach((tt) => {
+  const url = teks(tt.url).trim();
+
+  if (!url || url === "-" || !sosial) return;
+
+  const link = document.createElement("a");
+  link.href = url;
+  link.target = "_blank";
+  link.rel = "noopener";
+  link.textContent = tt.keterangan || "TikTok";
+  sosial.appendChild(link);
+});
 
   /* ------------------------------------------------------------------------
      QR CODE
