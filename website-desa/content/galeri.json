@@ -1,11 +1,189 @@
 {
   "galeri": [
-    { "src": "assets/images/galeri-1.jpg", "caption": "Suasana belajar bersama di balai desa", "kategori": "Pendidikan" },
-    { "src": "assets/images/galeri-2.jpg", "caption": "Penimbangan balita di posyandu", "kategori": "Kesehatan" },
-    { "src": "assets/images/galeri-3.jpg", "caption": "Pelatihan foto produk UMKM bambu", "kategori": "Ekonomi" },
-    { "src": "assets/images/galeri-4.jpg", "caption": "Kerja bakti bersih sungai", "kategori": "Lingkungan" },
-    { "src": "assets/images/galeri-5.jpg", "caption": "Latihan tari untuk malam budaya", "kategori": "Sosial" },
-    { "src": "assets/images/galeri-6.jpg", "caption": "Panen sayur bersama kelompok tani", "kategori": "Ekonomi" },
-    { "src": "assets/images/galeri-7.jpg", "caption": "Sesi cerita untuk anak-anak", "kategori": "Pendidikan" }
+    {
+      "src": "assets/images/galeri-foto/2.jpeg",
+      "caption": "Observasi dan Penyerahan Surat Izin Kegiatan KKNT",
+      "kategori": "Lainnya"
+    },
+    {
+      "src": "assets/images/galeri-foto/3.jpeg",
+      "caption": "Observasi dan Penyerahan Surat Izin Kegiatan KKNT",
+      "kategori": "Lainnya"
+    },
+    {
+      "src": "assets/images/galeri-foto/5.JPG",
+      "caption": "Pertemuan dan Pembekalan Tim KKNT dengan Dosen Pembimbing Lapangan (DPL)",
+      "kategori": "Lainnya"
+    },
+    {
+      "src": "assets/images/galeri-foto/6.JPG",
+      "caption": "Pertemuan dan Pembekalan Tim KKNT dengan Dosen Pembimbing Lapangan (DPL)",
+      "kategori": "Lainnya"
+    },
+    {
+      "src": "assets/images/galeri-foto/8.JPG",
+      "caption": "Pembukaan KKNT di Pendopo Kabupaten Nganjuk",
+      "kategori": "Lainnya"
+    },
+    {
+      "src": "assets/images/galeri-foto/9.JPG",
+      "caption": "Pembukaan KKNT di Pendopo Kabupaten Nganjuk",
+      "kategori": "Lainnya"
+    },
+    {
+      "src": "assets/images/galeri-foto/13.JPG",
+      "caption": "Koordinasi dengan Kepala Desa Baron dan karang taruna terkait program kerja KKNT",
+      "kategori": "Sosial"
+    },
+    {
+      "src": "assets/images/galeri-foto/15.JPG",
+      "caption": "Koordinasi dengan Kepala Desa Baron dan karang taruna terkait program kerja KKNT",
+      "kategori": "Sosial"
+    },
+    {
+      "src": "assets/images/galeri-foto/16.JPG",
+      "caption": "Sosialisasi Olahraga Wanita dan Lansia bersama PKK Desa Baron",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/17.JPG",
+      "caption": "Sosialisasi Olahraga Wanita dan Lansia bersama PKK Desa Baron",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/22.JPG",
+      "caption": "Upacara HUT RI ke-81 di Lapangan Desa Baron",
+      "kategori": "Sosial"
+    },
+    {
+      "src": "assets/images/galeri-foto/23.JPG",
+      "caption": "Upacara HUT RI ke-81 di Lapangan Desa Baron",
+      "kategori": "Sosial"
+    },
+    {
+      "src": "assets/images/galeri-foto/40.JPG",
+      "caption": "Pemaparan Program Kerja KKNT di Balai Desa Baron",
+      "kategori": "Lainnya"
+    },
+    {
+      "src": "assets/images/galeri-foto/41.JPG",
+      "caption": "Pemaparan Program Kerja KKNT di Balai Desa Baron",
+      "kategori": "Lainnya"
+    },
+    {
+      "src": "assets/images/galeri-foto/43.png",
+      "caption": "Jalan Santai di Dusun Lobeser Timur untuk Meningkatkan Kesehatan Masyarakat",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/47.png",
+      "caption": "Jalan Santai di Dusun Lobeser Timur untuk Meningkatkan Kesehatan Masyarakat",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/61.JPG",
+      "caption": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "kategori": "Pendidikan"
+    },
+    {
+      "src": "assets/images/galeri-foto/63.JPG",
+      "caption": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "kategori": "Pendidikan"
+    },
+    {
+      "src": "assets/images/galeri-foto/65.JPG",
+      "caption": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "kategori": "Pendidikan"
+    },
+    {
+      "src": "assets/images/galeri-foto/66.JPG",
+      "caption": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "kategori": "Pendidikan"
+    },
+    {
+      "src": "assets/images/galeri-foto/68.JPG",
+      "caption": "Senam Sehat bersama PKK Desa Baron untuk Meningkatkan Kesehatan",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/70.png",
+      "caption": "Senam Sehat bersama PKK Desa Baron untuk Meningkatkan Kesehatan",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/72.JPG",
+      "caption": "Lomba di SD Negeri 3 Baron",
+      "kategori": "Pendidikan"
+    },
+    {
+      "src": "assets/images/galeri-foto/80.JPG",
+      "caption": "Lomba di SD Negeri 3 Baron",
+      "kategori": "Pendidikan"
+    },
+    {
+      "src": "assets/images/galeri-foto/83.png",
+      "caption": "Posyandu Lansia Desa Baron",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/84.png",
+      "caption": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/85.jpg",
+      "caption": "Posyandu Balita dan Lansia Desa Baron",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/86.JPG",
+      "caption": "Posyandu Balita dan Lansia Desa Baron",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/96.JPG",
+      "caption": "Posyandu Balita dan Lansia Desa Baron",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/100.JPG",
+      "caption": "Membantu Kegiatan bersih bersih Masjid Baitur Rahim Dusun Lobeser Timur",
+      "kategori": "Lingkungan"
+    },
+    {
+      "src": "assets/images/galeri-foto/102.JPG",
+      "caption": "Membantu Kegiatan bersih bersih Masjid Baitur Rahim Dusun Lobeser Timur",
+      "kategori": "Lingkungan"
+    },
+    {
+      "src": "assets/images/galeri-foto/104.JPG",
+      "caption": "Senam Sore Bersama Warga Sekitar Posko KKNT",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/106.JPG",
+      "caption": "Senam Sore Bersama Warga Sekitar Posko KKNT",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/110.JPG",
+      "caption": "Senam Pagi Bersama Ibu-Ibu PKK",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/114.JPG",
+      "caption": "Senam Pagi Bersama Ibu-Ibu PKK",
+      "kategori": "Olahraga & Kesehatan"
+    },
+    {
+      "src": "assets/images/galeri-foto/119.png",
+      "caption": "Mengajar di SD Negeri 5 Baron",
+      "kategori": "Pendidikan"
+    },
+    {
+      "src": "assets/images/galeri-foto/121.png",
+      "caption": "Mengajar di SD Negeri 5 Baron",
+      "kategori": "Pendidikan"
+    }
   ]
 }

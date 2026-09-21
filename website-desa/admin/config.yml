@@ -151,7 +151,8 @@ collections:
               - { label: "Deskripsi Singkat", name: "deskripsi", widget: "text" }
               - { label: "Penanggung Jawab", name: "penanggungJawab", widget: "string" }
               - { label: "Target Sasaran", name: "sasaran", widget: "string" }
-              - { label: "Tanggal Pelaksanaan", name: "tanggal", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
+              - { label: "Tanggal Mulai", name: "tanggalMulai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
+              - { label: "Tanggal Selesai", name: "tanggalSelesai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
               - label: "Kategori"
                 name: "kategori"
                 widget: "select"
@@ -169,8 +170,9 @@ collections:
             summary: "{{judul}} — {{tanggal}}"
             fields:
               - { label: "Judul Kegiatan", name: "judul", widget: "string" }
-              - { label: "Tanggal", name: "tanggal", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
-              - { label: "Jam (contoh: 09:00 WIB)", name: "waktu", widget: "string" }
+              - { label: "Tanggal Mulai", name: "tanggalMulai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
+              - { label: "Tanggal Selesai", name: "tanggalSelesai", widget: "datetime", format: "YYYY-MM-DD", date_format: true, time_format: false }
+              - { label: "Waktu (contoh: 09:00 WIB, atau rentang: 06.30 s.d. 12.00 WIB)", name: "waktu", widget: "string" }
               - { label: "Lokasi", name: "lokasi", widget: "string" }
               - label: "Kategori"
                 name: "kategori"

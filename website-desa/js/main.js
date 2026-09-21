@@ -1091,12 +1091,12 @@ function renderProkerja() {
               "-"
             )}
           </span>
-
+          
           <span>
-            ${formatTanggal(
-              program.tanggal
-            )}
-          </span>
+           ${formatRentangTanggal(
+            program.tanggalMulai, program.tanggalSelesai
+           )}
+           </span>
 
         </div>
       `;
@@ -1167,9 +1167,9 @@ function renderKegiatan() {
           <div class="kegiatan-meta">
 
             <span>
-              📅
-              ${formatTanggal(
-                kegiatan.tanggal
+              📅 
+              ${formatRentangTanggal(
+                kegiatan.tanggalMulai, kegiatan.tanggalSelesai
               )},
               ${escapeHTML(
                 kegiatan.waktu || ""
@@ -1947,210 +1947,79 @@ function renderUMKM() {
    ========================================================================== */
 
 function renderKontak() {
-  const k =
-    DATA.kontak;
+  const k = DATA.kontak;
 
+  isiTeks("kontak-alamat", k.alamat);
 
-  const nomorWhatsApp =
-    normalisasiWhatsApp(
-      k.whatsapp
-    );
+  // WhatsApp (bisa lebih dari satu nomor)
+  const waWrap = kosongkan("kontak-wa-list");
+  arrayAman(k.whatsapp).forEach((wa) => {
+    const nomor = normalisasiWhatsApp(wa.nomor);
+    if (!nomor || !waWrap) return;
+    const link = document.createElement("a");
+    link.href = `https://wa.me/${nomor}`;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = `+${nomor}${wa.keterangan ? " (" + wa.keterangan + ")" : ""}`;
+    waWrap.appendChild(link);
+  });
+  if (waWrap && !waWrap.children.length) waWrap.textContent = "-";
 
+  // Email (bisa lebih dari satu)
+  const emailWrap = kosongkan("kontak-email-list");
+  arrayAman(k.email).forEach((em) => {
+    const alamat = teks(em.email).trim();
+    if (!alamat || alamat === "-" || !emailWrap) return;
+    const link = document.createElement("a");
+    link.href = `mailto:${alamat}`;
+    link.textContent = `${alamat}${em.keterangan ? " (" + em.keterangan + ")" : ""}`;
+    emailWrap.appendChild(link);
+  });
+  if (emailWrap && !emailWrap.children.length) emailWrap.textContent = "-";
 
-  isiTeks(
-    "kontak-alamat",
-    k.alamat
-  );
+  isiSrc("peta-kontak", DATA.desa.mapsEmbedUrl);
 
+  // Media sosial: Instagram (bisa lebih dari satu) + TikTok
+  const sosial = kosongkan("sosial-links");
+  arrayAman(k.instagram).forEach((ig) => {
+    const url = teks(ig.url).trim();
+    if (!url || url === "-" || !sosial) return;
+    const link = document.createElement("a");
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = ig.keterangan || "Instagram";
+    sosial.appendChild(link);
+  });
 
-  const kontakWA =
-    document.getElementById(
-      "kontak-wa"
-    );
-
-
-  if (kontakWA) {
-
-    kontakWA.textContent =
-      nomorWhatsApp
-        ? "+" + nomorWhatsApp
-        : "-";
-
-
-    if (nomorWhatsApp) {
-
-      kontakWA.href =
-        `https://wa.me/${nomorWhatsApp}`;
-
-      kontakWA.target =
-        "_blank";
-
-      kontakWA.rel =
-        "noopener";
-
-    } else {
-
-      kontakWA.removeAttribute(
-        "href"
-      );
-    }
+  const tiktok = objectAman(k.tiktok);
+  const tiktokUrl = teks(tiktok.url).trim();
+  if (tiktokUrl && tiktokUrl !== "-" && sosial) {
+    const link = document.createElement("a");
+    link.href = tiktokUrl;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = tiktok.keterangan || "TikTok";
+    sosial.appendChild(link);
   }
-
-
-  const email =
-    teks(k.email).trim();
-
-
-  const kontakEmail =
-    document.getElementById(
-      "kontak-email"
-    );
-
-
-  if (kontakEmail) {
-
-    kontakEmail.textContent =
-      email || "-";
-
-
-    if (email) {
-
-      kontakEmail.href =
-        `mailto:${email}`;
-
-    } else {
-
-      kontakEmail.removeAttribute(
-        "href"
-      );
-    }
-  }
-
-
-  isiSrc(
-    "peta-kontak",
-    DATA.desa.mapsEmbedUrl
-  );
-
-
-  const sosial =
-    kosongkan(
-      "sosial-links"
-    );
-
-
-  const tautanSosial = [
-
-    {
-      nama: "Instagram Desa",
-      url: k.instagramDesa,
-    },
-
-    {
-      nama: "Facebook Desa",
-      url: k.facebookDesa,
-    },
-
-    {
-      nama: "Instagram Tim KKNT",
-      url: k.instagramKKNT,
-    },
-
-  ].filter(
-    (tautan) =>
-      teks(
-        tautan.url
-      ).trim()
-  );
-
-
-  tautanSosial.forEach(
-    (tautan) => {
-
-      if (!sosial) return;
-
-
-      const link =
-        document.createElement(
-          "a"
-        );
-
-
-      link.href =
-        tautan.url;
-
-
-      link.target =
-        "_blank";
-
-
-      link.rel =
-        "noopener noreferrer";
-
-
-      link.textContent =
-        tautan.nama;
-
-
-      sosial.appendChild(
-        link
-      );
-    }
-  );
-
 
   /* ------------------------------------------------------------------------
      QR CODE
      ------------------------------------------------------------------------ */
 
-  const qrcodeWrap =
-    document.getElementById(
-      "qrcode"
-    );
+  const qrcodeWrap = document.getElementById("qrcode");
+  const qrUrl = document.getElementById("qr-url");
+  if (qrcodeWrap) qrcodeWrap.innerHTML = "";
 
-
-  const qrUrl =
-    document.getElementById(
-      "qr-url"
-    );
-
-
-  if (qrcodeWrap) {
-    qrcodeWrap.innerHTML =
-      "";
-  }
-
-
-  if (
-    window.QRCode &&
-    qrcodeWrap &&
-    k.urlWebsiteIni
-  ) {
-
-    new QRCode(
-      qrcodeWrap,
-      {
-        text:
-          k.urlWebsiteIni,
-
-        width: 140,
-
-        height: 140,
-
-        colorDark:
-          "#1f4d3a",
-
-        colorLight:
-          "#efe8d8",
-      }
-    );
-
-
-    if (qrUrl) {
-
-      qrUrl.textContent =
-        k.urlWebsiteIni;
-    }
+  if (window.QRCode && qrcodeWrap && k.urlWebsiteIni) {
+    new QRCode(qrcodeWrap, {
+      text: k.urlWebsiteIni,
+      width: 140,
+      height: 140,
+      colorDark: "#1f4d3a",
+      colorLight: "#efe8d8",
+    });
+    if (qrUrl) qrUrl.textContent = k.urlWebsiteIni;
   }
 }
 

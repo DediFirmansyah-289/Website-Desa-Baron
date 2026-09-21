@@ -16,7 +16,7 @@
         "nama": "Perangkat Desa Baron",
         "isi": "Pemerintah Desa Baron menyambut baik kedatangan tim KKNT dan mendukung rencana kegiatan yang akan dilaksanakan. Koordinasi ini menjadi langkah awal untuk membangun kerja sama yang baik bersama masyarakat."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Pertemuan dan Pembekalan Tim KKNT dengan Dosen Pembimbing Lapangan (DPL)",
@@ -34,7 +34,7 @@
         "nama": "Dosen Pembimbing Lapangan",
         "isi": "Saya senang bisa berkontribusi dalam membantu tim KKNT dalam mempersiapkan program kerja di Desa Baron. Semoga kegiatan ini dapat memberikan manfaat yang besar bagi masyarakat."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Pembukaan KKNT di Pendopo Kabupaten Nganjuk",
@@ -54,14 +54,14 @@
         "nama": "-",
         "isi": "-"
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Koordinasi dengan Kepala Desa Baron dan karang taruna terkait program kerja KKNT",
       "tanggal": "2026-08-14",
       "waktu": "-",
       "lokasi": "Balai Desa Baron",
-      "kategori": "Lainnya",
+      "kategori": "Sosial",
       "deskripsi": "Koordinasi dengan Kepala Desa Baron dan karang taruna dilaksanakan untuk membahas program kerja KKNT yang akan dijalankan di desa. Kegiatan ini menjadi kesempatan untuk menyampaikan rencana kegiatan, mendengarkan masukan, dan memastikan program kerja sesuai dengan kebutuhan masyarakat.",
       "foto": [
         "assets/images/kegiatan/12.JPG",
@@ -73,14 +73,14 @@
         "nama": "Kepala Desa Baron",
         "isi": "Kami sangat mendukung kegiatan ini dan berharap dapat bekerja sama secara sinergis dengan tim KKNT untuk mencapai tujuan program kerja yang telah direncanakan."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Sosialisasi Olahraga Wanita dan Lansia bersama PKK Desa Baron",
       "tanggal": "2026-08-15",
       "waktu": "-",
       "lokasi": "Balai Desa Baron",
-      "kategori": "Lainnya",
+      "kategori": "Olahraga & Kesehatan",
       "deskripsi": "Sosialisasi Olahraga Wanita dan Lansia bersama PKK Desa Baron dilaksanakan untuk meningkatkan kesadaran masyarakat tentang pentingnya berolahraga. Kegiatan ini menjadi momentum untuk memperkuat kebersamaan dan kesehatan masyarakat desa.",
       "foto": [
         "assets/images/kegiatan/16.JPG",
@@ -91,14 +91,14 @@
         "nama": "PKK Desa Baron",
         "isi": "Kami mengapresiasi kegiatan sosialisasi olahraga ini karena dapat meningkatkan kesadaran masyarakat tentang pentingnya berolahraga, terutama bagi wanita dan lansia. Semoga kegiatan ini dapat memberikan manfaat yang besar bagi kesehatan masyarakat."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Upacara HUT RI ke-81 di Lapangan Desa Baron",
       "tanggal": "2026-08-17",
       "waktu": "07:00 WIB",
       "lokasi": "Lapangan Desa Baron",
-      "kategori": "Lainnya",
+      "kategori": "Sosial",
       "deskripsi": "Upacara HUT RI ke-81 dilaksanakan di Lapangan Desa Baron sebagai bentuk peringatan dan penghormatan terhadap perjuangan para pahlawan dalam merebut kemerdekaan. Kegiatan ini menjadi momen penting bagi masyarakat desa untuk memperkuat rasa nasionalisme dan kebersamaan.",
       "foto": [
         "assets/images/kegiatan/19.JPG",
@@ -119,7 +119,7 @@
         "nama": "Kepala Desa Baron",
         "isi": "Kami mengapresiasi upacara HUT RI ke-81 ini karena dapat memperkuat rasa nasionalisme dan kebersamaan di kalangan masyarakat desa."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Pemaparan Program Kerja KKNT di Balai Desa Baron",
@@ -146,14 +146,14 @@
         "nama": "Kepala Desa Baron",
         "isi": "Kami mengapresiasi pemaparan program kerja KKNT ini karena dapat memberikan informasi yang jelas kepada masyarakat tentang rencana kegiatan yang akan dilaksanakan. Semoga kegiatan ini dapat berjalan dengan lancar dan memberikan manfaat yang besar bagi masyarakat."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Jalan Santai di Dusun Lobeser Timur untuk Meningkatkan Kesehatan Masyarakat",
       "tanggal": "2026-08-23",
       "waktu": "08:00 WIB",
       "lokasi": "Dusun Lobeser Timur",
-      "kategori": "Lainnya",
+      "kategori": "Olahraga & Kesehatan",
       "deskripsi": "Kegiatan jalan santai di Dusun Lobeser Timur dilaksanakan untuk meningkatkan kesehatan masyarakat dengan memberikan kesempatan bagi warga untuk berolahraga secara bersama-sama. Kegiatan ini juga bertujuan untuk memperkuat hubungan sosial di antara warga desa.",
       "foto": [
         "assets/images/kegiatan/43.png",
@@ -172,7 +172,7 @@
         "nama": "Warga Dusun Lobeser Timur",
         "isi": "Kegiatan jalan santai ini sangat bermanfaat untuk kesehatan fisik dan mental kami. Terima kasih kepada pihak desa yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
@@ -197,7 +197,7 @@
         "nama": "Guru SD Negeri 3 Baron",
         "isi": "Kegiatan sosialisasi GSA ini sangat bermanfaat untuk meningkatkan kesadaran tentang perundungan di sekolah. Terima kasih kepada pihak KKNT yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
@@ -215,7 +215,7 @@
         "nama": "Guru SD Negeri 2 Baron",
         "isi": "Kegiatan sosialisasi GSA ini sangat bermanfaat untuk meningkatkan kesadaran tentang perundungan di sekolah. Terima kasih kepada pihak KKNT yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Senam Sehat bersama PKK Desa Baron untuk Meningkatkan Kesehatan",
@@ -234,14 +234,14 @@
         "nama": "PKK Desa Baron",
         "isi": "Kegiatan senam sehat ini sangat bermanfaat untuk meningkatkan kesehatan masyarakat. Terima kasih kepada pihak PKK yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Lomba di SD Negeri 3 Baron",
       "tanggal": "2026-08-29",
       "waktu": "08:00 WIB",
       "lokasi": "SD Negeri 3 Baron",
-      "kategori": "Lainnya",
+      "kategori": "Pendidikan",
       "deskripsi": "Lomba di SD Negeri 3 Baron dilaksanakan untuk memperkuat semangat persaingan dan kebersamaan di antara siswa. Kegiatan ini juga bertujuan untuk mengembangkan bakat dan minat siswa dalam berbagai bidang.",
       "foto": [
         "assets/images/kegiatan/71.JPG",
@@ -261,7 +261,7 @@
         "nama": "Guru SD Negeri 3 Baron",
         "isi": "Kegiatan lomba ini sangat bermanfaat untuk memperkuat semangat persaingan dan kebersamaan di antara siswa. Terima kasih kepada pihak sekolah yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Posyandu Lansia Desa Baron",
@@ -277,7 +277,7 @@
         "nama": "Kepala Dusun Lobeser Timur",
         "isi": "Kegiatan posyandu ini sangat bermanfaat untuk memberikan pelayanan kesehatan kepada lansia di desa. Terima kasih kepada pihak desa yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Sosialisasi Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
@@ -293,10 +293,10 @@
         "nama": "Guru SD Negeri 5 Baron",
         "isi": "Kegiatan sosialisasi GSA ini sangat bermanfaat untuk meningkatkan kesadaran tentang perundungan di sekolah. Terima kasih kepada pihak KKNT yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
-      "judul": "Posyandu Balta dan Lansia Desa Baron",
+      "judul": "Posyandu Balita dan Lansia Desa Baron",
       "tanggal": "2026-09-04",
       "waktu": "08:00 WIB",
       "lokasi": "Rumah Kepala Desa Baron",
@@ -309,39 +309,120 @@
         "nama": "Kepala Desa Baron",
         "isi": "Kegiatan posyandu ini sangat bermanfaat untuk memberikan pelayanan kesehatan kepada balita dan lansia di desa. Terima kasih kepada pihak desa yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
-      "judul": "Posyandu Balta dan Lansia Desa Baron",
+      "judul": "Posyandu Balita dan Lansia Desa Baron",
       "tanggal": "2026-09-08",
       "waktu": "08:00 WIB",
       "lokasi": "Rumah Kepala Dusun Baron Timur",
       "kategori": "Kesehatan",
       "deskripsi": "Posyandu Balita dan Lansia Desa Baron dilaksanakan untuk memberikan pelayanan kesehatan kepada balita dan lansia di desa. Kegiatan ini juga bertujuan untuk meningkatkan kesadaran masyarakat tentang pentingnya perawatan kesehatan bagi balita dan lansia.",
       "foto": [
-        "assets/images/kegiatan/16.JPG"
+        "assets/images/kegiatan/86.JPG",
+        "assets/images/kegiatan/87.JPG",
+        "assets/images/kegiatan/88.JPG",
+        "assets/images/kegiatan/89.JPG",
+        "assets/images/kegiatan/90.JPG",
+        "assets/images/kegiatan/91.JPG",
+        "assets/images/kegiatan/92.JPG",
+        "assets/images/kegiatan/93.JPG",
+        "assets/images/kegiatan/94.JPG",
+        "assets/images/kegiatan/95.JPG",
+        "assets/images/kegiatan/96.JPG",
+        "assets/images/kegiatan/97.JPG"
       ],
       "testimoni": {
         "nama": "Kepala Dusun Baron Timur",
         "isi": "Kegiatan posyandu ini sangat bermanfaat untuk memberikan pelayanan kesehatan kepada balita dan lansia di desa. Terima kasih kepada pihak desa yang telah mengadakan kegiatan ini."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
     },
     {
       "judul": "Membantu Kegiatan bersih bersih Masjid Baitur Rahim Dusun Lobeser Timur",
       "tanggal": "2026-09-11",
       "waktu": "07:00 WIB",
       "lokasi": "Masjid Baitur Rahim Dusun Lobeser Timur",
-      "kategori": "Lainnya",
+      "kategori": "Lingkungan",
       "deskripsi": "Kegiatan bersih-bersih Masjid Baitur Rahim dilaksanakan untuk menjaga kebersihan dan kenyamanan tempat ibadah bagi masyarakat. Kegiatan ini juga bertujuan untuk memperkuat rasa kebersamaan dan kepedulian terhadap lingkungan sekitar.",
       "foto": [
-        "assets/images/kegiatan/16.JPG"
+        "assets/images/kegiatan/98.JPG",
+        "assets/images/kegiatan/99.JPG",
+        "assets/images/kegiatan/100.JPG",
+        "assets/images/kegiatan/101.JPG",
+        "assets/images/kegiatan/102.JPG",
+        "assets/images/kegiatan/103.JPG"
       ],
       "testimoni": {
         "nama": "Pengurus Masjid Baitur Rahim",
         "isi": "Kegiatan bersih-bersih ini sangat bermanfaat untuk menjaga kebersihan tempat ibadah. Terima kasih kepada semua pihak yang telah berkontribusi."
       },
-      "videoDokumentasiId": ""
+      "videoDokumentasi": ""
+    },
+    {
+      "judul": "Senam Sore Bersama Warga Sekitar Posko KKNT",
+      "tanggal": "2026-09-12",
+      "waktu": "16:00 WIB",
+      "lokasi": "Rumah Kepala Dusun Lobeser Timur",
+      "kategori": "Olahraga & Kesehatan",
+      "deskripsi": "Kegiatan senam sore bersama warga sekitar posko KKNT yang dilaksanakan sebagai sarana menjaga kebugaran tubuh sekaligus mempererat silaturahmi dan kebersamaan antara mahasiswa KKNT dengan masyarakat Desa Baron.",
+      "foto": [
+        "assets/images/kegiatan/104.JPG",
+        "assets/images/kegiatan/105.JPG",
+        "assets/images/kegiatan/106.JPG",
+        "assets/images/kegiatan/107.JPG",
+        "assets/images/kegiatan/108.JPG",
+        "assets/images/kegiatan/109.JPG"
+      ],
+      "testimoni": {
+        "nama": "Kepala Dusun Lobeser Timur",
+        "isi": "Kegiatan senam sore bersama mahasiswa KKNT sangat baik karena selain menjaga kebugaran, kegiatan ini juga membuat warga semakin akrab dan kompak. Semoga kegiatan seperti ini dapat terus dilaksanakan dan memberikan manfaat bagi masyarakat."
+      },
+      "videoDokumentasi": ""
+    },
+    {
+      "judul": "Senam Pagi Bersama Ibu-Ibu PKK",
+      "tanggal": "2026-09-13",
+      "waktu": "07.00 WIB",
+      "lokasi": "Taman",
+      "kategori": "Olahraga & Kesehatan",
+      "deskripsi": "Kegiatan senam pagi bersama ibu-ibu PKK sebagai upaya menjaga kebugaran dan kesehatan tubuh sekaligus mempererat kebersamaan antara mahasiswa KKNT dan masyarakat Desa Baron.",
+      "foto": [
+        "assets/images/kegiatan/110.JPG",
+        "assets/images/kegiatan/111.JPG",
+        "assets/images/kegiatan/112.JPG",
+        "assets/images/kegiatan/113.JPG",
+        "assets/images/kegiatan/114.JPG",
+        "assets/images/kegiatan/115.JPG"
+      ],
+      "testimoni": {
+        "nama": "Ibu PKK Desa Baron",
+        "isi": "Kegiatan senam pagi bersama mahasiswa KKNT sangat menyenangkan dan bermanfaat. Selain membuat tubuh lebih sehat dan bugar, kegiatan ini juga menjadi kesempatan untuk berkumpul dan mempererat kebersamaan."
+      },
+      "videoDokumentasi": ""
+    },
+    {
+      "judul": "Mengajar di SD Negeri 5 Baron",
+      "tanggalMulai": "2026-08-26",
+      "tanggalSelesai": "2026-09-19",
+      "waktu": "06.30 s.d. 12.00 WIB",
+      "lokasi": "SD Negeri 5 Baron",
+      "kategori": "Pendidikan",
+      "deskripsi": "Kegiatan mengajar dan pendampingan pembelajaran bersama siswa SD Negeri 5 Baron sebagai bagian dari program KKNT. Mahasiswa turut membantu proses pembelajaran serta menciptakan suasana belajar yang aktif, menyenangkan, dan interaktif bagi siswa.",
+      "foto": [
+        "assets/images/kegiatan/116.JPG",
+        "assets/images/kegiatan/117.JPG",
+        "assets/images/kegiatan/118.JPG",
+        "assets/images/kegiatan/119.JPG",
+        "assets/images/kegiatan/120.JPG",
+        "assets/images/kegiatan/121.JPG",
+        "assets/images/kegiatan/122.JPG"
+      ],
+      "testimoni": {
+        "nama": "Guru SD Negeri 5 Baron",
+        "isi": "Kehadiran mahasiswa KKNT sangat membantu dalam mendampingi kegiatan pembelajaran di sekolah. Interaksi bersama siswa juga memberikan pengalaman dan suasana belajar yang lebih beragam serta menyenangkan."
+      },
+      "videoDokumentasi": ""
     }
   ]
 }
