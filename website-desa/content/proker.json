@@ -1,44 +1,59 @@
 {
   "programKerja": [
-    { "nama": "UMKM Baron Go Online: Pemetaan Lokasi Usaha di Google Maps",
-     "deskripsi": "Membantu para pelaku UMKM Desa Baron agar lebih mudah ditemukan secara online dengan membuatkan titik lokasi usaha mereka di Google Maps. Langkah kecil ini membuka peluang besar: usaha warga jadi lebih mudah dicari calon pembeli, sekaligus memperkuat citra Desa Baron sebagai desa yang melek digital.",
-     "penanggungJawab": "Fatsilah Fadlika Dwiputra",
-     "sasaran": "Pelaku UMKM Desa Baron",
-     "tanggal": "2026-09-14 s.d. 2026-09-16",
-     "kategori": "Ekonomi & Informasi",
-     "thumbnail": "assets/images/proker/6.png" },
-
-    { "nama": "Baron Go Baron Digital: Peluncuran Website Resmi Desa",
-     "deskripsi": "Menghadirkan wajah digital pertama Desa Baron lewat website resmi yang memuat profil desa, struktur pemerintahan, dokumentasi kegiatan KKNT, hingga potensi wisata dan UMKM lokal — semua bisa diakses siapa saja, kapan saja, cukup lewat genggaman. Dilengkapi panel admin yang mudah dipakai, sehingga perangkat desa dapat terus memperbarui informasi secara mandiri bahkan setelah masa KKNT berakhir. Program ini menjadi langkah awal transparansi dan promosi Desa Baron ke dunia yang lebih luas.",
-     "penanggungJawab": "Dedi Firmansyah",
-     "sasaran": "Warga Desa Baron & Masyarakat Umum",
-     "tanggal": "2026-08-13 s.d. 2026-09-22",
-     "kategori": "Teknologi & Informasi",
-     "thumbnail": "assets/images/proker/7.png" },
-
-    { "nama": "Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
-     "deskripsi": "Kampanye dan edukasi anti-perundungan di sekolah-sekolah Desa Baron, mengajak siswa mengenali, mencegah, dan berani melapor jika mengalami atau menyaksikan tindakan bullying. Program ini bertujuan menciptakan lingkungan belajar yang aman, nyaman, dan ramah bagi semua siswa.",
-     "penanggungJawab": "Naufal Zulfi Marsendy",
-     "sasaran": "Siswa Siswa Sekolah Dasar",
-     "tanggal": "2026-08-24 s.d. 2026-09-03",
-     "kategori": "Pendidikan",
-     "thumbnail": "assets/images/proker/8.png" },
-
-    { "nama": "Baron Bugar: Pelatihan Olahraga untuk Wanita dan Lansia",
-     "deskripsi": "Menghadirkan sesi olahraga ringan dan terarah khusus untuk kelompok wanita dan lansia di Desa Baron, guna mendorong gaya hidup sehat dan aktif di segala usia. Program ini juga menjadi ruang silaturahmi antarwarga sambil menjaga kebugaran tubuh bersama-sama.",
-     "penanggungJawab": "Oktavia Rachmah Dhini",
-     "sasaran": "Wanita & Lansia Desa Baron",
-     "tanggal": "2026-08-15 s.d. 2026-09-10",
-     "kategori": "Olahraga & Kesehatan",
-     "thumbnail": "assets/images/proker/9.png" },
-
-    { "nama": "Asistensi Mengajar di Sekolah Dasar Desa Baron",
-     "deskripsi": "Membantu proses belajar-mengajar di beberapa Sekolah Dasar Desa Baron, mendampingi guru dan siswa dalam kegiatan akademik sehari-hari. Diharapkan kehadiran tim KKNT dapat memberikan suasana belajar yang lebih hidup dan menyenangkan bagi siswa.",
-     "penanggungJawab": "Dinda Aprilia Azzahra",
-     "sasaran": "Siswa Siswa Sekolah Dasar",
-     "tanggal": "2026-08-26 s.d. 2026-09-19",
-     "kategori": "Pendidikan",
-     "thumbnail": "assets/images/proker/10.png" }
+    {
+      "tanggalMulai": "2026-09-14",
+      "sasaran": "Pelaku UMKM Desa Baron",
+      "tanggalSelesai": "2026-09-16",
+      "kategori": "Ekonomi",
+      "nama": "UMKM Baron Go Online: Pemetaan Lokasi Usaha di Google Maps",
+      "tanggal": "2026-09-14 s.d. 2026-09-16",
+      "thumbnail": "website-desa/assets/images/9.png",
+      "deskripsi": "Membantu para pelaku UMKM Desa Baron agar lebih mudah ditemukan secara online dengan membuatkan titik lokasi usaha mereka di Google Maps. Langkah kecil ini membuka peluang besar: usaha warga jadi lebih mudah dicari calon pembeli, sekaligus memperkuat citra Desa Baron sebagai desa yang melek digital.",
+      "penanggungJawab": "Fatsilah Fadlika Dwiputra"
+    },
+    {
+      "tanggalMulai": "2026-08-13",
+      "sasaran": "Warga Desa Baron & Masyarakat Umum",
+      "tanggalSelesai": "2026-09-22",
+      "kategori": "Teknologi & Informasi",
+      "nama": "Baron Go Baron Digital: Peluncuran Website Resmi Desa",
+      "tanggal": "2026-08-13 s.d. 2026-09-22",
+      "thumbnail": "website-desa/assets/images/10.png",
+      "deskripsi": "Menghadirkan wajah digital pertama Desa Baron lewat website resmi yang memuat profil desa, struktur pemerintahan, dokumentasi kegiatan KKNT, hingga potensi wisata dan UMKM lokal — semua bisa diakses siapa saja, kapan saja, cukup lewat genggaman. Dilengkapi panel admin yang mudah dipakai, sehingga perangkat desa dapat terus memperbarui informasi secara mandiri bahkan setelah masa KKNT berakhir. Program ini menjadi langkah awal transparansi dan promosi Desa Baron ke dunia yang lebih luas.",
+      "penanggungJawab": "Dedi Firmansyah"
+    },
+    {
+      "tanggalMulai": "2026-08-24",
+      "sasaran": "Siswa Siswa Sekolah Dasar",
+      "tanggalSelesai": "2026-09-03",
+      "kategori": "Pendidikan",
+      "nama": "Gerakan Sekolah Aman (GSA): Aksi nyata Melawan Perundungan",
+      "tanggal": "2026-08-24 s.d. 2026-09-03",
+      "thumbnail": "website-desa/assets/images/7.png",
+      "deskripsi": "Kampanye dan edukasi anti-perundungan di sekolah-sekolah Desa Baron, mengajak siswa mengenali, mencegah, dan berani melapor jika mengalami atau menyaksikan tindakan bullying. Program ini bertujuan menciptakan lingkungan belajar yang aman, nyaman, dan ramah bagi semua siswa.",
+      "penanggungJawab": "Naufal Zulfi Marsendy"
+    },
+    {
+      "tanggalMulai": "2026-08-15",
+      "sasaran": "Wanita & Lansia Desa Baron",
+      "tanggalSelesai": "2026-09-10",
+      "kategori": "Olahraga & Kesehatan",
+      "nama": "Baron Bugar: Pelatihan Olahraga untuk Wanita dan Lansia",
+      "tanggal": "2026-08-15 s.d. 2026-09-10",
+      "thumbnail": "website-desa/assets/images/8.png",
+      "deskripsi": "Menghadirkan sesi olahraga ringan dan terarah khusus untuk kelompok wanita dan lansia di Desa Baron, guna mendorong gaya hidup sehat dan aktif di segala usia. Program ini juga menjadi ruang silaturahmi antarwarga sambil menjaga kebugaran tubuh bersama-sama.",
+      "penanggungJawab": "Oktavia Rachmah Dhini"
+    },
+    {
+      "tanggalMulai": "2026-08-26",
+      "sasaran": "Siswa Siswa Sekolah Dasar",
+      "tanggalSelesai": "2026-09-19",
+      "kategori": "Pendidikan",
+      "nama": "Asistensi Mengajar di Sekolah Dasar Desa Baron",
+      "tanggal": "2026-08-26 s.d. 2026-09-19",
+      "thumbnail": "website-desa/assets/images/8.png",
+      "deskripsi": "Membantu proses belajar-mengajar di beberapa Sekolah Dasar Desa Baron, mendampingi guru dan siswa dalam kegiatan akademik sehari-hari. Diharapkan kehadiran tim KKNT dapat memberikan suasana belajar yang lebih hidup dan menyenangkan bagi siswa.",
+      "penanggungJawab": "Dinda Aprilia Azzahra"
+    }
   ]
 }
-
