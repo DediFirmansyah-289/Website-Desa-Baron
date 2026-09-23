@@ -212,14 +212,75 @@ section { padding: 88px 0; position: relative; }
 /* ==========================================================================
    PROFIL — sejarah, visi misi, batas wilayah, potensi
    ========================================================================== */
-.profil-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; margin-bottom: 60px; }
-.profil-sejarah p { color: var(--coklat-muda); margin-bottom: 14px; white-space: pre-line; }
-.visi-misi { background: var(--krem-anyaman); border-radius: var(--radius); padding: 28px; }
-.visi-misi h4 { color: var(--hijau-tua); font-size: 1rem; margin-bottom: 8px; }
-.visi-misi p { color: var(--coklat-muda); margin-bottom: 18px; }
-.visi-misi ul { list-style: none; }
-.visi-misi li { padding-left: 22px; position: relative; margin-bottom: 10px; color: var(--coklat-tanah); font-size: 0.94rem; }
-.visi-misi li::before { content: "—"; position: absolute; left: 0; color: var(--emas-panen); }
+.profil-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 56px;
+  margin-bottom: 60px;
+  align-items: start;
+}
+
+.profil-sejarah > p {
+  color: var(--coklat-muda);
+  margin-bottom: 0;
+  white-space: pre-line;
+}
+
+.alasan-website {
+  margin-top: 32px;
+}
+
+.alasan-website h4 {
+  color: var(--hijau-tua);
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.alasan-website p {
+  color: var(--coklat-muda);
+  line-height: 1.7;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.visi-misi {
+  background: var(--krem-anyaman);
+  border-radius: var(--radius);
+  padding: 28px;
+}
+
+.visi-misi h4 {
+  color: var(--hijau-tua);
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--garis);
+}
+
+.visi-misi p {
+  color: var(--coklat-muda);
+  margin-bottom: 28px;
+  line-height: 1.7;
+}
+
+.visi-misi ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 24px;
+}
+
+.visi-misi li {
+  margin-bottom: 10px;
+  padding-left: 4px;
+  color: var(--coklat-tanah);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.visi-misi li::marker {
+  color: var(--emas-panen);
+  font-weight: 700;
+}
 
 .batas-map-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 40px; margin-bottom: 60px; align-items: start; }
 .batas-wilayah { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; border: 1px solid var(--garis); }
@@ -236,8 +297,25 @@ section { padding: 88px 0; position: relative; }
 .potensi-item p { font-size: 0.88rem; color: var(--coklat-muda); }
 
 @media (max-width: 860px) {
-  .profil-grid, .batas-map-grid { grid-template-columns: 1fr; }
-  .potensi-grid { grid-template-columns: 1fr 1fr; }
+
+  .profil-grid,
+  .batas-map-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .profil-grid {
+    margin-bottom: 48px;
+  }
+
+  .visi-misi {
+    padding: 24px;
+  }
+
+  .potensi-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
 @media (max-width: 460px) {
   .potensi-grid { grid-template-columns: 1fr; }
