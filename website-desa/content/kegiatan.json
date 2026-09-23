@@ -1,4 +1,4 @@
-{
+﻿{
   "kegiatan": [
     {
       "waktu": "09:00 WIB",
@@ -426,9 +426,9 @@
       "tanggalMulai": "2026-09-22",
       "waktu": "10.00-11.30",
       "foto": [
-        "website-desa/assets/images/img_2035.jpg",
-        "website-desa/assets/images/img_2095.jpg",
-        "website-desa/assets/images/img_2079.jpg"
+        "assets/images/img_2035.jpg",
+        "assets/images/img_2095.jpg",
+        "assets/images/img_2079.jpg"
       ],
       "tanggalSelesai": "2026-09-22",
       "kategori": "Teknologi & Informasi",
@@ -442,3 +442,4 @@
     }
   ]
 }
+
