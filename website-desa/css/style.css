@@ -266,20 +266,36 @@ section { padding: 88px 0; position: relative; }
 .visi-misi ol {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 24px;
+  padding-left: 0;
+  list-style: none;
 }
 
 .visi-misi li {
-  margin-bottom: 10px;
-  padding-left: 4px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 14px;
+  padding-left: 0;
   color: var(--coklat-tanah);
   font-size: 0.94rem;
   line-height: 1.6;
 }
 
-.visi-misi li::marker {
-  color: var(--emas-panen);
-  font-weight: 700;
+.visi-misi li:last-child {
+  margin-bottom: 0;
+}
+
+.nomor-misi {
+  flex: 0 0 32px;
+  display: inline-block;
+  color: var(--tanah-liat) !important;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 800;
+  line-height: 1.7;
+  text-align: left;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .batas-map-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 40px; margin-bottom: 60px; align-items: start; }

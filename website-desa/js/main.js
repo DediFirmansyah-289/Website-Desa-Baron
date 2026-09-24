@@ -533,19 +533,32 @@ function renderProfil() {
     kosongkan("list-misi");
 
   arrayAman(d.misi).forEach(
-    (misi) => {
+    (misi, index) => {
       if (!listMisi) return;
 
       const li =
         document.createElement("li");
 
-      li.textContent =
+      const nomor =
+        document.createElement("span");
+
+      nomor.className = "nomor-misi";
+
+      nomor.textContent =
+        String(index + 1).padStart(2, "0");
+
+      const teksMisi =
+        document.createElement("span");
+
+      teksMisi.textContent =
         teks(misi);
+
+      li.appendChild(nomor);
+      li.appendChild(teksMisi);
 
       listMisi.appendChild(li);
     }
   );
-
 
   const batasWrap =
     kosongkan("batas-wilayah");
