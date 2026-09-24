@@ -1179,12 +1179,10 @@ function renderKegiatan() {
 
             <span>
              📅
-             ${escapeHTML(
-               kegiatan.tanggal || "-"
-             )},
-             ${escapeHTML(
-               kegiatan.waktu || ""
-             )}
+             ${escapeHTML(kegiatan.tanggal || "-")}
+             ${kegiatan.waktu
+                ? `, ${escapeHTML(kegiatan.waktu)}`
+                : ""}
             </span>
 
             <span>
